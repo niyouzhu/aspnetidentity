@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6240833e-6af7-4e0b-84b7-0e73de88089e"
+  name="Collections‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="084809e6-6680-4724-bc65-84ee668edf3f"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Namespace%3DSystem.Collections Type%3D(Name%3DSystem.Collections.Generic.SortedSet&lt;&gt;.Node GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Type%3D%3F)])"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="be71bfbd-f817-4fe9-a386-073fb3a5571d"
+        LastKnownName="Generic‎"
+        LastKnownLocation="Package87_1121.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

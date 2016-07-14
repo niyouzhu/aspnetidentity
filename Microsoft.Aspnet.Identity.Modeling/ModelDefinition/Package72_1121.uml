@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="14dc670f-3f87-466a-88c0-106736175a01"
+  name="Compilation"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0feeaecf-0c3e-4560-b009-b322a33a8691"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Web.Compilation"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="159f8f6c-024a-4273-b087-311d37e17493"
+        name="BuildManagerHostUnloadEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7db07c72-b7d8-4aba-aaff-c345345d612c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.Compilation Type%3DBuildManagerHostUnloadEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="aba09cde-253c-413d-b03e-81191343e844"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9cdd8d3b-318e-416c-849a-5f8944022a20">
+                <propertyInstance
+                  Id="37413564-af47-4494-b66d-f0620f1e6ab5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b19c8ca9-c63d-4a50-b465-ebe64d6ab7c4">
+                <propertyInstance
+                  Id="2f559e3a-3c4c-452e-94ba-304fa4e92110"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4d7be3a-4173-4521-8240-c7e7a18c5c1b">
+                <propertyInstance
+                  Id="404ccb67-95e8-41c5-aca8-e92aba4b8acf"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5339b1e3-c858-477c-be0c-0a3b90d1d479">
+                <propertyInstance
+                  Id="3d9dd030-b46b-4238-8404-fca32fbb0d2e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cccc2ceb-8624-492f-91e4-b3f1465cf8b2">
+                <propertyInstance
+                  Id="b328301d-63f5-4f93-ad04-82ca30063361"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="24df749a-499b-4130-8c67-107d20c68151"
+            isSubstitutable="false">
+            <classMoniker
+              Id="5a658f0e-c19a-4617-a38f-2dae0798ca73"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package3_1517.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fe10c8ea-3af2-4f89-b550-bb91f0e10268"
+        name="BuildManagerHostUnloadEventHandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3d0a6a72-23c4-4533-912a-70c41de74b4c"
+            handle="viewcode://./CodeSchema_Delegate?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.Compilation Type%3DBuildManagerHostUnloadEventHandler"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b022a0f5-38ce-465c-9bef-2868ab8be349"
+            name="delegate"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2492cbe2-6e5b-417c-b33a-85fa2bf8a70c">
+                <propertyInstance
+                  Id="acb4f955-c6d3-4999-b2af-9c13279bc863"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43b43380-ca7e-42a6-a8a6-2d1a9d07b5bc">
+                <propertyInstance
+                  Id="ddf7b8a1-be49-4f19-bcb8-df4dccba1bc9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5779345f-33b6-4c78-b98d-9c2ee9d2c2e9">
+                <propertyInstance
+                  Id="b2f8a814-1f31-4359-b3b5-445ef6ce7b6e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

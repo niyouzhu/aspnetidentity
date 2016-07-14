@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="bd13503b-2281-4537-ad0a-8f6d862557ed"
+  name="SafeNativeMethods‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ae520e75-c6b7-425c-bd69-7cac36c48f29"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Namespace%3DMicrosoft.Win32.SafeNativeMethods Type%3DMicrosoft.Win32.SafeNativeMethods.PROCESS_INFORMATION"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="37787e9c-a4de-4592-9b96-49904a51fc17"
+        name="Microsoft.Win32.SafeNativeMethods.PROCESS_INFORMATION"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="aea8e610-d22c-4475-aafe-89ccb537575e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Type%3DMicrosoft.Win32.SafeNativeMethods.PROCESS_INFORMATION"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c79d4885-2336-4cce-a3ed-ee6bb2b14852"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="72c2a40b-2a88-497d-8af3-ea22c9483838">
+                <propertyInstance
+                  Id="ab39664f-833e-4e90-a2a2-62789e6d9576"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61560d70-ad91-4dd2-986e-81f2a81d3acb">
+                <propertyInstance
+                  Id="8c1f220b-dd3c-432c-a215-e04eb3bfdb8f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5710785b-f9ba-42c4-8c03-bfa6593ea245">
+                <propertyInstance
+                  Id="28e45a8f-e1bd-4414-be7d-680d6caccd6e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba10bcae-13a1-4976-bcd6-45c1dfe84dad">
+                <propertyInstance
+                  Id="7e619810-a686-4d7b-a72c-897252d93412"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4cfff6bd-80dd-4f50-8dd4-50c014efaba6">
+                <propertyInstance
+                  Id="dbd6785c-103d-497a-aa54-abf7ad3d561c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1bfb85cb-c0b4-4711-bddb-4c3d0af0ae8f"
+  name="Core"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5cd793b8-5dcd-45f7-8d7f-bcf3d052089a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DNCS.IConnect.Core"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c7e4a1e4-f411-490f-8495-63ee1cd13240"
+        LastKnownName="Caching"
+        LastKnownLocation="Package4_1107.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="df929d7a-9bb1-47bc-a9bd-2f28dae2f27b"
+        LastKnownName="IoC"
+        LastKnownLocation="Package1_1109.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1bb8c9a1-f9d6-4a2b-8559-cd9d674a4f69"
+        name="AuditInfo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="541dbe05-f078-46c8-959f-1fe3e5f2355b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FNCS%2FiConnect%2F46%2FiConnect%2Fbin%2FDebug%2FNCS.IConnect.Core.dll Namespace%3DNCS.IConnect.Core Type%3DAuditInfo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8018098a-f644-4854-9501-89c5777aa1d0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d6d21ed2-4aea-4a9d-b6a1-7d7e307c10ec">
+                <propertyInstance
+                  Id="782adef6-3fe4-4219-90de-eb0113af68ce"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08d67bc4-46a2-40d4-a51b-80115fbdadfd">
+                <propertyInstance
+                  Id="d1b7ce57-3dcc-49ce-bfd1-9c666cf0d2ae"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c3569d44-93cb-4ade-9284-a8883e15e894">
+                <propertyInstance
+                  Id="e8e4d4a5-055a-46ef-b1bb-d2821e679995"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="762beb4d-d4ec-495b-85c8-8bae5481bf37">
+                <propertyInstance
+                  Id="7ac535d7-aa04-4571-ad86-54f4a3af65c5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea18ebc5-7cd1-435a-b691-e5dd1095977a">
+                <propertyInstance
+                  Id="c6b252d1-b2fd-44a1-b9e2-e39738b48342"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="40d881da-b9da-40db-a5b3-42e67cc8c5c9"
+        LastKnownName="Data"
+        LastKnownLocation="Package5_1109.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

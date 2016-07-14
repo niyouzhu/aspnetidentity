@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="31f6dc4b-b78f-4fca-9641-945736ee5bff"
+  name="Linq"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="55951299-238b-4a19-a5bc-7be000480785"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DNewtonsoft.Json.Linq"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="7429c22a-8fd4-49ca-8f9c-df598a6b4fb6"
+        name="JObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b091ebd0-090a-4e68-9748-875753c0bde6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FNewtonsoft.Json.6.0.4%2Flib%2Fnet45%2FNewtonsoft.Json.dll Namespace%3DNewtonsoft.Json.Linq Type%3DJObject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c0cd0ea7-21cc-4f7f-9995-c8edabb6352b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c63ca032-4c50-430c-adc2-cb969ede9135">
+                <propertyInstance
+                  Id="0ce59582-ab3e-4011-9b4c-d3a2efec216c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="693a58dc-fbe1-4bbd-83a5-a10f359acb91">
+                <propertyInstance
+                  Id="f2659d1f-9209-4ac6-a0aa-0d9ce766278b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="99adb841-c054-457e-90fe-e43ddecc92e6">
+                <propertyInstance
+                  Id="045d5429-e848-4a8a-a6c7-8254ea0d2e05"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04179caf-40b3-438e-a77c-a764f85b6d2f">
+                <propertyInstance
+                  Id="9cc47368-574d-4e13-a135-c88808ccce28"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5493f7a2-f1ad-4509-8007-1f585c3b1695">
+                <propertyInstance
+                  Id="1a7b6419-08c4-446e-8599-c6050ba4fce4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="b7734c2a-8cc6-4b91-9895-39a93e8ce083">
+            <interfaceMoniker
+              Id="ab393904-1c97-4743-a70f-fa2bbf98ac78"
+              LastKnownName="IEnumerable"
+              LastKnownLocation="Package8_1517.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

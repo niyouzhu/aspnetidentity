@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c7fe8b4f-aa8a-4205-adb1-8812dbe81915"
+  name="IConnect"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="22e0ea05-e41c-4cad-8eb6-52c98992ace9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DNCS.IConnect"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="58ae035b-d615-4542-b3f0-6e07716e7b4d"
+        LastKnownName="Security"
+        LastKnownLocation="Package2_1107.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1bfb85cb-c0b4-4711-bddb-4c3d0af0ae8f"
+        LastKnownName="Core"
+        LastKnownLocation="Package3_1107.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

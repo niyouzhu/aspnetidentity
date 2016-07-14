@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="28bd6514-36dd-41a6-9b4a-7835b7681ff0"
+  name="Data‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="65e77408-2ad1-475d-88b8-ab26d868001f"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Namespace%3DSystem.Data Type%3DSystem.Data.ProviderBase.DbConnectionPoolIdentity"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c5367838-d6f4-451a-8424-64d543b4ef67"
+        LastKnownName="OleDb‎"
+        LastKnownLocation="Package39_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="df59b64e-3783-46fb-a578-cc645230822e"
+        LastKnownName="Odbc‎"
+        LastKnownLocation="Package40_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="895d5fc6-db3d-4da1-af6a-0d89db670300"
+        LastKnownName="SqlClient‎"
+        LastKnownLocation="Package43_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6ca8b91e-0c43-43a1-b8a7-0749f7a7187b"
+        LastKnownName="ProviderBase‎"
+        LastKnownLocation="Package44_1121.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

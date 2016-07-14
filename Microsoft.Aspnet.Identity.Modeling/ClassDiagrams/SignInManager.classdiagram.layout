@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SignInManager">
+  <logicalClassDesignerModelMoniker Id="8c55b4bd-3c63-4ae0-9b6f-d4c23eeb7543" />
+  <nestedChildShapes>
+    <packageShape Id="6822a37b-f654-498e-8275-d005cee0d085" absoluteBounds="0.5, 1, 4.75, 4.625" customColor="255, 249, 230" hideQualifiedName="false">
+      <packageMoniker Id="fa856028-eb6d-4bb4-89d4-22566f261753" LastKnownName="Owin" />
+      <nestedChildShapes>
+        <classShape Id="db765aa7-1e75-46da-bf24-60dbd6506875" absoluteBounds="0.875, 1.625, 3.375, 3.9104917850097012" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+          <classMoniker Id="d8b4739a-b2c4-4c01-a6bb-70f12463d1d2" LastKnownName="SignInManager" />
+          <relativeChildShapes>
+            <templateBoxShape Id="f81678a0-6ef0-4124-9ec2-818290c5e9dc" absoluteBounds="3.75, 1.465, 1.3282457160949708, 0.2">
+              <redefinableTemplateSignatureMoniker Id="ba777c00-6abb-4358-a0ca-c5967b751ea1" />
+            </templateBoxShape>
+          </relativeChildShapes>
+          <nestedChildShapes>
+            <AttributeElementListCompartment Id="cd95234a-53c9-4da1-8b24-bc7a6b8395f6" absoluteBounds="0.89000000000000012, 2.1403356393178306, 3.3449999999999998, 0.84179684768120444" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+            <OperationElementListCompartment Id="6f1de208-035d-4408-b706-0040208eec4b" absoluteBounds="0.89000000000000012, 2.9921324869990347, 3.3449999999999998, 2.4433592980106669" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          </nestedChildShapes>
+        </classShape>
+      </nestedChildShapes>
+    </packageShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

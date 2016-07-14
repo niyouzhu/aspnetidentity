@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="68c9f1fc-f787-4c1c-9514-322d7f5b3abc"
+  name="Messages"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="63cfb29f-25c9-4130-9e46-2ac9d2a2bda5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Security.OAuth.Messages"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="50c37704-9aab-4385-9bc7-4b0501da9016"
+        name="AuthorizeEndpointRequest"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6880a77a-0944-43d0-8f01-d252ed3f55ba"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth.Messages Type%3DAuthorizeEndpointRequest"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6aab0377-a64e-4396-88ae-a1c7d73c9227"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6670dae2-b28c-4bcc-8a3c-3c07ae8f386c">
+                <propertyInstance
+                  Id="75d6775d-8d54-4114-879b-d25c3a603201"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a75b6dbd-2162-4435-83a4-c197c6c6a876">
+                <propertyInstance
+                  Id="5a2694c5-abe2-41fb-96de-db01325421f8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d7facbb-5b02-48a0-867f-18c60bf14bd7">
+                <propertyInstance
+                  Id="30ece322-950c-4158-b8a4-a0ea040a35ca"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9f09cb62-e7a7-45a3-8550-15aee1493d70">
+                <propertyInstance
+                  Id="cefe88d2-ae5f-49f6-a2b4-b86b2dfccb02"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4b950177-293a-41b1-b598-37e6a701e5e2">
+                <propertyInstance
+                  Id="b2568da6-13d2-4a7d-b0b3-5080ea9758cc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="573585cb-4e7d-4433-a2c6-c1fad46606e6"
+        name="TokenEndpointRequest"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dc9a9349-a8c2-49eb-a3de-3dc347bcb97c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth.Messages Type%3DTokenEndpointRequest"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6bb3bd5c-947f-4b42-b20c-83008c1360c5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b143b660-cd21-402a-a791-4a73b02ea85f">
+                <propertyInstance
+                  Id="02a686b9-c97f-4631-9160-7b8368653c71"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be909ca4-a5df-4d58-8116-491bdafdc7c9">
+                <propertyInstance
+                  Id="a59797d5-bc1a-4128-b1b1-30dc32d2fa9e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0444c01b-ed55-4f33-b8c6-973782338454">
+                <propertyInstance
+                  Id="ca04d284-64d9-44fc-8ee7-3ada1b11a63c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21047d23-aadc-44a7-bac6-66ec836e5c3e">
+                <propertyInstance
+                  Id="f32c9acb-bf73-4f86-8e39-cff82264b1d8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b5afee53-d3ac-4714-affe-02420dbde6fb">
+                <propertyInstance
+                  Id="3b65e4cb-f53b-4406-a3c3-bf4b4a1e6230"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6434d3f7-8fea-4f18-9021-4d71f6d667fc"
+        name="TokenEndpointRequestAuthorizationCode"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="379bd845-c9d3-4fa2-b69a-b7d31ae000a2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth.Messages Type%3DTokenEndpointRequestAuthorizationCode"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="12bd9db1-2dc5-44f0-ab24-6742c05b97da"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5f7fd0da-5e37-4e82-afa7-006769e57c97">
+                <propertyInstance
+                  Id="7a258edf-2dc5-4db2-b5d3-4b101cbf1c45"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d349a07-6208-47a1-ae0e-0a8770912f14">
+                <propertyInstance
+                  Id="8aa4cdd6-636d-456c-817e-28aefc3770a2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="087a097f-3952-4b0b-9d05-40abb5dac049">
+                <propertyInstance
+                  Id="e85b7fca-6fef-4a70-8c8b-54932a183cb7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5a29189-884d-4b90-a8c8-41f0cdf6bdcf">
+                <propertyInstance
+                  Id="03931b37-b00d-47e3-9704-2ee3d4d604c7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3394f8ce-e83e-4242-a0c7-527a080c1f5a">
+                <propertyInstance
+                  Id="1d3fce7f-c07c-42c6-8e62-97163c7ea867"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f8d682cc-4627-43c7-8414-11d2087eb5ae"
+        name="TokenEndpointRequestClientCredentials"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="71fdfead-e40a-4f5f-b82e-5d5b42682a3d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth.Messages Type%3DTokenEndpointRequestClientCredentials"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bb308760-550a-46cb-a870-2e2c7cdc4830"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4c1e8c98-d09b-4be5-b453-2d19b768a74e">
+                <propertyInstance
+                  Id="fa05ff23-5c46-4238-9c2f-842d2e91e88c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ed8801e2-de3d-4675-9d80-aae8635fbdb9">
+                <propertyInstance
+                  Id="f88dec96-5406-4fb8-9811-13bdd9e2e0b9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db64da2f-7e2c-4e1b-a62b-275e2a3d85a1">
+                <propertyInstance
+                  Id="978a60f4-1ce3-496f-9a60-8384f0f8fd7d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="279dacf9-b997-4723-b439-6659909358a1">
+                <propertyInstance
+                  Id="a57c38e7-59be-45c5-9672-79628b242ae2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a62f9bc3-add0-4864-bcd3-d5c7d6ed4bcd">
+                <propertyInstance
+                  Id="540006b7-adff-40a6-91dd-2cd9cf813e1b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6d9419d4-bc30-43a3-9993-cbab4edbda9a"
+        name="TokenEndpointRequestCustomExtension"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a02ee96a-b65e-489b-a07e-53267f34e363"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth.Messages Type%3DTokenEndpointRequestCustomExtension"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="024d5a8e-3258-4254-8a84-024dda07c522"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d3770e8f-dd46-481e-b994-d2b6cd840888">
+                <propertyInstance
+                  Id="32e6be92-e58b-43ed-a450-ca49365d4f32"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="293cd59d-ef6a-4ae8-8cb3-c084342d6138">
+                <propertyInstance
+                  Id="fb34f30a-25dc-4674-b821-0ee4b89a874c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8564492c-614f-4121-ae14-0b538829027e">
+                <propertyInstance
+                  Id="8e506d09-2c07-4f42-aa82-3094895999d1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d991d315-eea2-4ebe-bc09-718bcfaa8f58">
+                <propertyInstance
+                  Id="86ab0a6c-8848-4a73-b09d-2c9d234b69b2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb271b59-b20c-4079-808a-26a75a1c1f1b">
+                <propertyInstance
+                  Id="823d5a70-bd30-4d8b-94c4-6d867baeb326"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e44cb733-4984-4393-83b4-5886e77aa8f0"
+        name="TokenEndpointRequestRefreshToken"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a2c0d32e-743c-4036-b99d-00fc277e443e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth.Messages Type%3DTokenEndpointRequestRefreshToken"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="081ac802-5682-4e30-8a9b-14be91dba474"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7924c5f-5ecd-4588-8a23-cc3756e78569">
+                <propertyInstance
+                  Id="b704dd3d-9d05-4256-85ab-7b1f6b271969"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be53c36d-6dce-4456-8b6b-5e08bed598f6">
+                <propertyInstance
+                  Id="e1d16b29-2b4a-4899-9936-1d54f497aa12"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="337a0468-84a8-4570-8101-b46a2bbe119f">
+                <propertyInstance
+                  Id="756b73d7-e591-4e28-acbf-877b367894fe"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3fa7a2d9-48d0-42b3-b38b-a82e36958c21">
+                <propertyInstance
+                  Id="4e351236-e378-4c93-b7ae-ede8ed9c6ec7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87a0d4cd-5244-4b80-b01c-a394cd81a414">
+                <propertyInstance
+                  Id="029104b0-64d6-42bc-8b28-d888b96426fc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ccdaffff-8ffd-41e9-a5da-a36913e42b66"
+        name="TokenEndpointRequestResourceOwnerPasswordCredentials"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="60ee3005-05ef-4b17-8dac-8d6946d71e32"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth.Messages Type%3DTokenEndpointRequestResourceOwnerPasswordCredentials"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="980bfd2c-d13f-4377-96eb-348e46ccad7c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce1db656-b8b1-4ba5-8afe-ae4acbeb8d38">
+                <propertyInstance
+                  Id="e3b976f7-2cca-4073-a51c-cf510e6979d9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37c3aad5-c179-48ae-82f5-e8023b7fa6bd">
+                <propertyInstance
+                  Id="8f3a03fb-54fe-485f-8d83-303c925b020f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d349301f-db25-44c3-a78f-41f01f3d9b79">
+                <propertyInstance
+                  Id="dfa58a88-b3a8-4dfe-9f9d-cfe42f43324b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e86dafb-8f2f-4249-b801-0aa98eef6bf1">
+                <propertyInstance
+                  Id="320a16db-8a10-450f-91ef-c1e88d8e2816"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21d29ea6-a2cd-4bf4-899a-1d26fc133394">
+                <propertyInstance
+                  Id="1f2cd147-a002-4c77-8df9-00cbb0316e53"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

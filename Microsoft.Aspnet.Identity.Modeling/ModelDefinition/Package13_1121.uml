@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="dd7c51c8-688f-45ce-ac93-f2b283cbf72a"
+  name="Extensions"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1ba29410-80b3-4e1d-a57f-ac6e9468cf71"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Extensions"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5688a50c-320f-4bf4-9e2a-fa2657222f83"
+        name="IntegratedPipelineExtensions"
+        isAbstract="true"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="adbc0a71-bd47-4043-9a46-b45b6b3ed153"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Extensions Type%3DIntegratedPipelineExtensions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="536999fe-3ee9-4453-8761-367e70300d91"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c2a4d4b2-bad4-42dc-adf7-4687f67b9ae3">
+                <propertyInstance
+                  Id="c5dd82b2-8f8d-4f16-a867-063df806b00b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74a9dbab-ca76-495a-a41f-29aac327dad9">
+                <propertyInstance
+                  Id="21528078-9a68-40c5-8cd5-a1cce63846be"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0571b00b-93a9-49a8-bfbe-f7ace161f728">
+                <propertyInstance
+                  Id="9d80f71d-f3c1-4115-b8bf-d05a7a8f78a2"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d881c94-1053-4319-9e85-227cb9761dff">
+                <propertyInstance
+                  Id="5da42f60-fb25-4924-8416-7a6401dc19d1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9f09503-9a06-4b26-a84a-b90df17e8458">
+                <propertyInstance
+                  Id="52f1fe78-e735-47bb-be16-5f459390c569"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="202d7ccf-e303-41d8-b548-deaa35191693"
+        name="UseHandlerMiddleware"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fc213739-655e-4d48-b3a0-8fec747dbcd6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Extensions Type%3DUseHandlerMiddleware"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1e097429-fdd3-491c-94b2-022d2c2bc69f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="108ccb39-493a-444d-a4e9-f77181bac57b">
+                <propertyInstance
+                  Id="08ca6304-e64c-4d43-86ae-38dc5ca11e18"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00b6fcae-3746-40a6-877b-9a27add4ccc4">
+                <propertyInstance
+                  Id="1fff6dee-f64c-4e3a-8dd1-b8ca2e898aa8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6efa8866-39ae-4030-b1f2-9652334e2a69">
+                <propertyInstance
+                  Id="88767805-af68-4833-b9c8-4d7195e07a46"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b243775-c5c7-4ea4-beab-11d85a33276c">
+                <propertyInstance
+                  Id="f9b0fa64-c52e-4df0-9e46-f85c8fa9db97"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5c5741eb-517c-411b-aaf9-028b31456dc4">
+                <propertyInstance
+                  Id="29ce8c27-280c-49fb-8f65-3c65c1601dd5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

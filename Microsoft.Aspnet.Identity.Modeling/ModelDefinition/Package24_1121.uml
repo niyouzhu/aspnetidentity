@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="ece7b15d-5049-4800-b0e4-64240897ff0f"
+  name="Google"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f6783ef4-d475-454b-8b20-0d45e0304757"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Security.Google"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9e3c87fa-decb-4ead-95ec-9ce2a4d72784"
+        name="GoogleApplyRedirectContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="14f40f81-d0d8-45fb-b2f9-7717c5b67dcd"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleApplyRedirectContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7f168473-226c-4608-a64c-75c7e5375d46"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd29c1cb-734c-4821-8ac1-91ae8867b28b">
+                <propertyInstance
+                  Id="51b0a489-dd9b-494f-a3dc-432fd749af22"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="35d0df40-a60b-4254-86bb-75bbe2bbe9f0">
+                <propertyInstance
+                  Id="7911699f-3113-41a5-992c-5a8b45c3bccd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d132a218-27c6-46aa-8863-1ceac3c6a99f">
+                <propertyInstance
+                  Id="7f07c3b9-62df-419b-883c-99bde23a4be3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b98cba99-be9e-41b7-af55-15667a8e0f16">
+                <propertyInstance
+                  Id="33ad7996-553b-4eb5-b0ba-cd262597b6e2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a136f21d-87e8-4688-b979-df704f5751e6">
+                <propertyInstance
+                  Id="cbbd3948-203c-477b-a010-a2197e384bf7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="dbfd0b9b-0a60-4f3f-a919-6633ba704a9c"
+        name="GoogleAuthenticationOptions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6e706fc8-36b0-47cd-8006-5588cad80f7c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.Google.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleAuthenticationOptions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="35828e72-61ef-417f-924f-dcdbaebb72be"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16b213fa-e8b3-4884-be8e-64c7ed12ff10">
+                <propertyInstance
+                  Id="db73f279-3a82-47d0-a58d-6b3258212dc2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4416875a-e01e-47b3-986b-5203f8fa876d">
+                <propertyInstance
+                  Id="44861ad3-640d-477a-a26f-1f9223683e41"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="743d088f-0146-4899-af53-c00e1711b411">
+                <propertyInstance
+                  Id="97e9a0a7-646e-4498-b3cf-372b9b2aa702"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e92bd26-5240-488b-998a-c673381efb57">
+                <propertyInstance
+                  Id="f19fa245-6134-4f1b-b827-abac829dc8eb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="29f38c5a-f752-4d36-8a2c-060910572328">
+                <propertyInstance
+                  Id="796e0d74-1bca-478a-971e-30b5f7dd0ae3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="d375cd06-1876-4415-b8ce-970c10d6f468"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f1885520-c914-41bc-9daa-2990bf48278f"
+              LastKnownName="AuthenticationOptions"
+              LastKnownLocation="Package2_1555.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="53e26365-6f10-4ea8-a31e-6e76429a9ce6"
+        name="GoogleAuthenticatedContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="816d4c99-e0a5-4ff2-9697-f3c9f59dc406"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleAuthenticatedContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cc6dca7c-b7cb-4c47-9220-468b39fa0f91"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b30c29c0-df40-4466-8ea7-e0ca6cd64ec0">
+                <propertyInstance
+                  Id="76215d09-b3c8-45b8-95ca-b7e1098314e0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6453db79-9c28-4e46-ae31-c00ee9c20890">
+                <propertyInstance
+                  Id="e899e1de-539c-4999-97dc-53b12b6b56d8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9d962ae-e192-464f-8e67-a1f5f2e841ac">
+                <propertyInstance
+                  Id="5ebe886e-cc7c-4df6-b3e0-5e13882ef47d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36d02e12-3364-4231-bc98-36dad9b3b239">
+                <propertyInstance
+                  Id="97e7b988-0877-4499-9878-61d60eefbba3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5fafe6ec-8deb-4fd7-8cd1-507d277301ac">
+                <propertyInstance
+                  Id="af4b1e8b-4772-4b88-b0a5-49c6d77be29b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="34c0e0ed-870f-4b2b-9446-64c2eed78f71"
+        name="GoogleAuthenticationMiddleware"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4b7f6331-b78d-4055-ba8c-8b5550fc3548"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleAuthenticationMiddleware"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ba5b4184-f582-4ea4-96f2-c1db4bd88363"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="56ae4bd1-6e20-4c93-abb8-3fa18fb82395">
+                <propertyInstance
+                  Id="e0be2490-0525-4d5c-82c2-d648e24b5cdb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="32c861e5-102c-450c-a140-d3ec2112e863">
+                <propertyInstance
+                  Id="6157b100-2e60-49cc-8c05-648833e5cd6b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b36e734-0889-4e21-bae2-ff3c42cbafa0">
+                <propertyInstance
+                  Id="68d168d6-bdce-4836-9698-76097462e39f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8222a6a-da17-483e-8353-a5f592c05636">
+                <propertyInstance
+                  Id="a2ea1275-c5da-497c-a279-9091538f334f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09fd644f-e3c6-4e80-a3c6-413becef8f45">
+                <propertyInstance
+                  Id="907f8eb7-191b-4fc4-9b7c-1791647cefb5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="3c893a5d-5afe-4425-937f-3840299ef081"
+        name="IGoogleAuthenticationProvider"
+        isAbstract="true"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="e6317e89-2817-4f27-bf56-d4c25f7acbb4"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DIGoogleAuthenticationProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c23dc0ae-335e-4020-92fe-4c4191772d1b"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e83d20c3-111f-4d8a-9587-3a61b5c88854">
+                <propertyInstance
+                  Id="3b61ea75-b760-477b-9916-700b35fc0e8d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="827fce2e-833a-4dd9-890f-b34a0c355be7">
+                <propertyInstance
+                  Id="27f4d821-204f-4476-ba73-97ed11f74950"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26f6de2f-f212-4c55-b25b-46b300508493">
+                <propertyInstance
+                  Id="57a267e2-1f4a-4898-b3be-1a45c3aa2d1c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c1a7a4f-66d3-4a92-bb46-115bb73aade3">
+                <propertyInstance
+                  Id="cd2520b4-b30b-49fd-9279-609dda3e80a4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="24a6a548-e275-4407-8e7a-4c298a3ead27"
+        name="GoogleAuthenticationProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ad2af8d2-1668-4ffe-a46d-e9dbe111f3c2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleAuthenticationProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7a9ad93e-9059-4607-807f-1932101f9bfd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a517b528-39d4-44b1-9884-dfb5327bbb2c">
+                <propertyInstance
+                  Id="d811a690-7d11-46ec-882e-cacc3fd10154"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f950cb8-196b-4dba-aad7-f83b62f60a56">
+                <propertyInstance
+                  Id="dc2a1497-a5ff-413d-9955-dbdda0914bac"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f748093-67e6-4bc4-9c04-6ded2f7487d3">
+                <propertyInstance
+                  Id="899f3de6-6426-4e5e-89a5-faa74099de6e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c51ecf70-757d-4c97-aae5-93f253146870">
+                <propertyInstance
+                  Id="2adda01b-c424-4025-8618-ac24fc252713"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9cb03e9f-3c77-4454-a88d-2b56f7bb169d">
+                <propertyInstance
+                  Id="b6b5fadb-85d8-441d-a349-bf725d8db7a4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="03ee2ff1-1883-48ea-9e6d-72e99636fda7"
+        name="GoogleReturnEndpointContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3745c1b8-e8fe-423a-ab9b-b72ba17a4c28"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleReturnEndpointContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5269c464-8023-44e2-811f-0c0bba472919"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7429571c-6b81-4486-8a97-3d8f93e1aa19">
+                <propertyInstance
+                  Id="a7ccb351-65d5-439e-9476-b7a9d0d5be80"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="64d1e38a-99a2-40f0-9778-47daab5364a3">
+                <propertyInstance
+                  Id="8c84a3d8-78ba-48ae-b476-156276b18f1c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e311b047-30d9-4dce-923e-4dd1357ca91d">
+                <propertyInstance
+                  Id="eba3cfd4-039e-44da-a79f-7b417f02aab4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a21774d3-b4cf-436e-9cb3-09b3b9200694">
+                <propertyInstance
+                  Id="fad5bf12-0657-423b-b4cb-bad4489dc939"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f1a9177d-1a2c-4465-99ef-5ddccb05bdfd">
+                <propertyInstance
+                  Id="cd27f640-9890-4fe2-9df7-87d75d71a653"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="315e6f12-b512-42c5-908d-487aa2fc38b7"
+        name="GoogleOAuth2ApplyRedirectContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="58e5cc79-6e56-49ac-a4d4-9133bc12adab"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleOAuth2ApplyRedirectContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2584e109-f186-4885-a1c2-e260ea719aca"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="baebb5d5-4618-425a-a2fb-d4e09d235919">
+                <propertyInstance
+                  Id="2e84888c-d206-4213-9e98-3a21422abf59"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c0f7aa1-d80a-4e8f-9867-c2b77bada907">
+                <propertyInstance
+                  Id="44a2bf2b-eeb0-402d-a348-efe2b9cabd33"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4f5ef011-61b4-4ef1-a93a-13d36502e296">
+                <propertyInstance
+                  Id="7c13358b-2ede-4b5f-9b12-f9866bdc2253"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de1193f4-90b8-4667-8d69-994ba2fdd6e7">
+                <propertyInstance
+                  Id="deae487b-479d-4183-97ed-f5afa0843fb1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e8a2d2d-c55f-4e86-8e2e-f0a0e77d29da">
+                <propertyInstance
+                  Id="572d2e57-db10-4839-8141-9791c067790b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cd16bbf2-7285-4a85-b415-008ff80c62cf"
+        name="GoogleOAuth2AuthenticationOptions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a125b3fc-f3a5-497d-80aa-e78ebf54244d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.Google.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleOAuth2AuthenticationOptions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="691fd7ea-df8b-44d4-81df-03bad22b5789"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba650093-af4f-452d-94b5-a508eb598fe1">
+                <propertyInstance
+                  Id="134665ff-0c0a-4a3a-9a4e-338aaad55fd9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="48017b5b-0388-433d-bc08-9c23fb209641">
+                <propertyInstance
+                  Id="80f7d957-4a60-4b8d-af99-9d29dc355b3a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11de943a-3338-4c45-953b-6886dc8c61ec">
+                <propertyInstance
+                  Id="cf1e403b-f81a-4df8-b0c5-66bc3731a4d8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6621d7ca-88b8-4bc2-ae5c-b95c2f533d43">
+                <propertyInstance
+                  Id="409cab7c-ac02-4ce2-b199-47467ea1a0da"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8031a680-66b4-4d70-87d9-026e623ad4a1">
+                <propertyInstance
+                  Id="721c4d52-25d6-4924-8c6f-4482ae614ba4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="5c2c6533-b845-4de1-99e5-c1a8c0712b35"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f1885520-c914-41bc-9daa-2990bf48278f"
+              LastKnownName="AuthenticationOptions"
+              LastKnownLocation="Package2_1555.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7608175a-cdfe-4d11-830a-cc1e7defb476"
+        name="GoogleOAuth2AuthenticatedContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c532e7a8-9e0e-426c-a2d9-2ef64af960eb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleOAuth2AuthenticatedContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8ae9c0fb-9ed1-4189-9416-6c97a6d0eda0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="811d50b2-1714-438e-8b62-2002ae9bec3b">
+                <propertyInstance
+                  Id="f01de9b0-bf8e-4806-b5fb-2d580efb0257"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eba11048-16b8-4b36-a708-97ac647f9aa9">
+                <propertyInstance
+                  Id="8e803ea9-fa9b-408a-9d2f-d0cf88b9a0e9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85423d32-5944-490e-812a-1c625dc1b305">
+                <propertyInstance
+                  Id="1d1d9112-fbd2-487e-bdb6-2c6669c21d87"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9a94fbe8-58c6-49c1-a7b9-fa3448011d77">
+                <propertyInstance
+                  Id="3492d8a6-3f05-4468-b9a9-e21b5d0f57da"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b00f7695-6dfd-473d-818a-b6609033f78d">
+                <propertyInstance
+                  Id="9710472f-8ae6-42d0-a476-8420afb603a8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7ca94cd5-8c14-406b-ae3d-f581be56a72e"
+        name="GoogleOAuth2AuthenticationMiddleware"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e5208b77-52f4-493b-9381-ac0f318816ee"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleOAuth2AuthenticationMiddleware"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="895c9900-5891-4b7f-bce2-0735531b24dd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="81c46ef8-50d8-4510-aee6-564c1b3ced89">
+                <propertyInstance
+                  Id="73349b7c-4fcd-45de-aa4c-9ccdf6dbc7c6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a86e14e8-be93-443b-a5ab-0882ae1bd171">
+                <propertyInstance
+                  Id="0813fe01-171f-4716-bfdb-6a8702387645"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04b4736b-4476-43b1-a2df-19e3f59c1d12">
+                <propertyInstance
+                  Id="885e0974-0f1e-48e2-ab47-1d5c127104c9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f17de788-3f31-4662-80b7-b462a202f7a1">
+                <propertyInstance
+                  Id="2072abf2-a96e-45bc-a570-3e3eb30eaaca"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3839d773-6670-4718-9d3d-02022467e2b5">
+                <propertyInstance
+                  Id="45961f16-d398-45a5-acfc-54c26062290c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="048d67d7-dcd2-47b8-8bd5-5f49ac25134a"
+        name="IGoogleOAuth2AuthenticationProvider"
+        isAbstract="true"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="a497a823-986c-4be2-a412-7b0946e57dab"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DIGoogleOAuth2AuthenticationProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="38cc015d-2ef5-4c20-9603-56094c046918"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0dc7a515-fddb-41d8-b457-a372452af5d5">
+                <propertyInstance
+                  Id="36b09a92-7a57-44e0-8ac7-2e74bafeb8af"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab32a695-9a3a-47b5-881b-779ecb009273">
+                <propertyInstance
+                  Id="5aa18026-ca9f-462a-988e-4872db3de5a3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d6118f7b-620d-48e8-b286-d7480729a53a">
+                <propertyInstance
+                  Id="1d357059-4fb3-4f7e-b61d-db9181875254"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a19a77b1-3813-42d5-97f0-8ee569b9f6c0">
+                <propertyInstance
+                  Id="ea68bf1b-03b3-49fa-bf74-419a45057998"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="48164baf-9bd7-439f-9d29-155633ac9431"
+        name="GoogleOAuth2AuthenticationProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c2827fd8-3c74-4e2b-9f7e-70280167b1d0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleOAuth2AuthenticationProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="12755711-2beb-48a3-9d51-937d461457b1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e7cbada1-1ba0-4fa2-9ad0-5770eb487eb7">
+                <propertyInstance
+                  Id="9300fdab-24d5-43c2-9eab-3795b74d843a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5fc291f4-c98a-40c7-9425-64e131bb2400">
+                <propertyInstance
+                  Id="121103b4-a578-4e89-bbaf-7162fa19280f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0a2e6ff3-66df-4fb1-9d0d-bbed67d014f3">
+                <propertyInstance
+                  Id="aec078ec-ecf5-44f4-831d-06cdbed041ab"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ee2f13d-12ea-43c1-bea5-336bac6244fc">
+                <propertyInstance
+                  Id="1aa54269-afd8-40e6-a4d9-bd9c1bc29942"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f89648e-92b7-4d18-bd85-28bdd3e88524">
+                <propertyInstance
+                  Id="adabe89d-5528-4fcd-b131-6bc13ad5e0c5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3a648b4e-d632-4122-ae79-12bde575f641"
+        name="GoogleOAuth2ReturnEndpointContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="caad1347-18c3-4b79-8229-06b16b059a34"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleOAuth2ReturnEndpointContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f8f0c308-4746-471b-87af-17fac4dff9bc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9c6e9730-11ec-4b68-83bf-29de381f1891">
+                <propertyInstance
+                  Id="5b2d7ab7-632c-443b-9089-0ce2f5ae776b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="121cf654-0467-4e62-81e7-e73a2a6e0c12">
+                <propertyInstance
+                  Id="4263d2e5-fecd-4342-8f16-40136498f097"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="573bf284-5a47-4111-bfb8-f889feee4dcf">
+                <propertyInstance
+                  Id="0af777e5-b5a4-44b1-8f84-080bd6736940"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31234061-ed86-4894-bc14-732cdc659016">
+                <propertyInstance
+                  Id="4f1d2ea3-ce0f-4305-b19e-61b6c0ba9835"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="653cc0da-b1e0-48b4-982a-d850004a7948">
+                <propertyInstance
+                  Id="c1b4049b-de84-43a5-89ff-fe6417c4d35b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3fa0c134-d374-45d4-aa60-7bcf5931f1f4"
+        name="Constants"
+        visibility="Package"
+        isAbstract="true"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bec1c5c4-2be9-4d66-9a34-9de0e2c1ab81"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DConstants"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="884c2592-60a0-43e3-a7c5-efd961253d95"
+        name="Resources"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c8b31351-c6eb-47e8-9b55-4901ea31f7e8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DResources"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="de341360-1e7e-4ab8-bc11-4844b91e3fc6"
+        name="&lt;InvokeAsync&gt;d__0"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3f7414ca-610e-4331-a3ee-fe7d7a80b804"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3D(Name%3D&lt;InvokeAsync&gt;d__0 ParentType%3DGoogleAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0bbf5cdd-cbc5-4eff-a305-36431b77b4f8"
+        name="&lt;AuthenticateCoreAsync&gt;d__0"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4ab51ad6-0de2-4973-a1c2-034b707c88b6"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3D(Name%3D&lt;AuthenticateCoreAsync&gt;d__0 ParentType%3DGoogleOAuth2AuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="76f6cdf6-9c85-4594-8f69-f3d0b056e309"
+        name="&lt;AuthenticateCoreAsync&gt;d__7"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ef215a3b-242a-47e5-a271-06ea70bf5986"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3D(Name%3D&lt;AuthenticateCoreAsync&gt;d__7 ParentType%3DGoogleAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f1eac5be-72e6-4e7a-a83c-f8e0152d913f"
+        name="&lt;InvokeAsync&gt;d__15"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="86a2272a-c2c5-4a20-8a48-fda3a71ee880"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3D(Name%3D&lt;InvokeAsync&gt;d__15 ParentType%3DGoogleOAuth2AuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="baae4326-bedd-4340-8776-e23b4e93fff7"
+        name="&lt;InvokeReplyPathAsync&gt;d__18"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="132411e6-8609-403a-85a4-090044254b31"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3D(Name%3D&lt;InvokeReplyPathAsync&gt;d__18 ParentType%3DGoogleOAuth2AuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f43631fc-7462-4134-b32e-e48223d61f35"
+        name="&lt;InvokeReturnPathAsync&gt;d__27"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5696ccae-e4e6-46f1-a3fc-c8619f6eab84"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3D(Name%3D&lt;InvokeReturnPathAsync&gt;d__27 ParentType%3DGoogleAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c411cf0e-dff8-4f4b-896b-6e3ff26fdb94"
+        name="&lt;ParseRequestMessageAsync&gt;d__23"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f4ff4d0f-349c-4169-b866-98a800c3f108"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3D(Name%3D&lt;ParseRequestMessageAsync&gt;d__23 ParentType%3DGoogleAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5469ef8b-9fb8-4780-9f74-573e2a68b231"
+        name="GoogleAuthenticationHandler"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="497e7fba-4a35-467c-8223-8bd111d93261"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleAuthenticationHandler"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d00bdddc-24f2-44e6-9c73-9891e6dc4204"
+        name="GoogleOAuth2AuthenticationHandler"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e81f3542-1c5b-4b8f-8847-415894e0052d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Google.dll Namespace%3DMicrosoft.Owin.Security.Google Type%3DGoogleOAuth2AuthenticationHandler"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="51e3fa9f-cf56-4558-8e48-1c2fa9cc0a37"
+        LastKnownName="Infrastructure"
+        LastKnownLocation="Package34_1121.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

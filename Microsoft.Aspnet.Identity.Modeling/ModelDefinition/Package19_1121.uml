@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="52f8e7bc-7420-49b8-a772-376eef3b9688"
+  name="Helpers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b25402c1-7c5f-4797-b622-9a6dedc082ce"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Helpers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="db0570b3-e493-487a-8149-5e35961fb74f"
+        name="WebHelpers"
+        isAbstract="true"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bab3f805-e3fc-4e1c-8a5d-280aec504923"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Helpers Type%3DWebHelpers"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bed5fe71-c08f-4c6a-b74c-6a8c3c31dd71"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7b87a424-a80e-40a3-8f48-aa98757cbeed">
+                <propertyInstance
+                  Id="63acfe11-b29b-4560-9b00-a3e4be344003"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5c37591e-d294-4522-ae05-cd4a2bffe941">
+                <propertyInstance
+                  Id="918edb27-1088-4990-8ac4-bbad608afa7d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8a0cd829-c70e-498d-a37d-6a2852a87433">
+                <propertyInstance
+                  Id="c54b0d43-7ccf-42bf-8900-ac9128ca4998"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="57c975f8-9b95-4aca-a7d5-759cb11cd27f">
+                <propertyInstance
+                  Id="eeeb6586-9f2f-4afb-88ff-fd3ddec1e24c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83d34a11-de2b-48fa-abd1-a6aaa05286ff">
+                <propertyInstance
+                  Id="b9853c64-4990-4e39-ab80-9bfcfd1b14c4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

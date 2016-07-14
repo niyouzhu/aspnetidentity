@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="27c8ad4d-b9d8-4743-8197-9c63237e3a40"
+  name="MicrosoftAccount"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="8147129a-fbbf-4c35-af5c-cbd2d9665aab"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="fe51b72e-9fd5-48b2-96a7-431dcc279e17"
+        name="IMicrosoftAccountAuthenticationProvider"
+        isAbstract="true"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="87b1af26-0bf4-495c-8228-3654f93b9b50"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DIMicrosoftAccountAuthenticationProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d8a2fa2a-7770-435f-8370-47f729b0c842"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae345d76-933f-4be4-99b2-00b8e50795e8">
+                <propertyInstance
+                  Id="8fb937c8-d296-4155-bb27-50087492285b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="67f5aca1-24e9-4744-9f41-92e90258a5c5">
+                <propertyInstance
+                  Id="d20ff426-d067-40d0-9013-203ff7bfff9e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="92ea9110-a711-426f-bbb5-04a0946fa4fa">
+                <propertyInstance
+                  Id="1664c16b-7a79-4ed4-8ec9-5e961611b25c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="575b8b68-4e22-4faa-9b61-61fd4352047c">
+                <propertyInstance
+                  Id="00952969-bdf1-4ca2-aa25-8eca832cd97c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="95f9dbc6-983f-4bff-a81a-724cacf28ff1"
+        name="MicrosoftAccountApplyRedirectContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a50d642e-9ca9-43f0-ba84-32284d101eb0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DMicrosoftAccountApplyRedirectContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0af9077d-7046-4da6-b316-f8767d789556"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="360c4368-ec5d-491b-84a7-025a80e38fe4">
+                <propertyInstance
+                  Id="cb068193-c691-468a-ad1f-89f6fcb1e3b4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="97e02ca0-816e-4e89-869f-b4e2b8f85ef1">
+                <propertyInstance
+                  Id="f031ada5-bb64-41ab-8ddd-dea123be7d8f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5254d478-af78-4d0b-b4e3-ae63504f79c5">
+                <propertyInstance
+                  Id="10b5db03-6440-45e7-8edb-8da70a03adc8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d4849e6e-9bac-4db5-b057-895bae23f49b">
+                <propertyInstance
+                  Id="e744b3a2-98dc-4790-8a2e-fe2788002b04"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d72eaefc-000d-49a0-9e5d-5cdcf754d589">
+                <propertyInstance
+                  Id="0dca2f27-9ff0-48a1-b506-6151d8814df6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e3dadc2e-2d78-4e24-89c4-0481d336629a"
+        name="MicrosoftAccountAuthenticatedContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="11d36158-63eb-4a43-ad64-f0ebcc666b7e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DMicrosoftAccountAuthenticatedContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="94e6d215-9235-4da8-8386-3149586ea301"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e07ff8f1-e324-4e53-bb67-6e58ebbbbb65">
+                <propertyInstance
+                  Id="1a0ef88a-6d4a-4ed8-96ed-66ed3c067633"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="53ef068e-0562-4acf-8ec4-55dbb89b33e6">
+                <propertyInstance
+                  Id="d349701c-6104-4294-a525-160f748a5572"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1f6d9c8-7c0e-4fc4-ba12-c73d5638fed2">
+                <propertyInstance
+                  Id="119f34fd-6557-4da4-aca9-de7005095c74"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="05347690-4d3c-417b-8877-9feff9d74a6e">
+                <propertyInstance
+                  Id="01d76f1d-ce60-41f3-b1ac-b1ba9de28f39"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4aa3877f-75b5-4c0f-b623-8918fffc24eb">
+                <propertyInstance
+                  Id="de945676-7e0e-4366-a505-9415c74a3fa6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fe1e7767-ef3d-494f-8fbd-05bcca699622"
+        name="MicrosoftAccountReturnEndpointContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d83bfce2-c281-4252-8f53-76c0e68ed403"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DMicrosoftAccountReturnEndpointContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8199892c-4035-42f9-8274-7443af600e52"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41d0c3f5-b533-478c-a45b-57d3774df6d4">
+                <propertyInstance
+                  Id="5a91a5b5-074b-4f7d-ae2c-18fd62130904"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8259fd3-8d47-4428-8185-07a7668b766a">
+                <propertyInstance
+                  Id="9396fb83-a38a-4536-b615-fc895b833df9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae1d01fa-7ab1-4cec-9b3f-45d0ffab5c51">
+                <propertyInstance
+                  Id="4c7311d4-8f99-4844-b094-8eaec965a28f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ceb07192-6c20-490d-9bb4-7ba084e90c9e">
+                <propertyInstance
+                  Id="c2087896-d52c-48ac-be83-d7030d3bb4df"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a45c3693-76a9-429e-b02b-a12ee1b7eeb6">
+                <propertyInstance
+                  Id="a463c2ab-b013-4a27-a098-af0bad97be13"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7f862045-d156-4ed6-b0db-3260fa3f7225"
+        name="MicrosoftAccountAuthenticationOptions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b230b8ac-8685-40ce-a9ea-37e0cf790ce9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.MicrosoftAccount.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DMicrosoftAccountAuthenticationOptions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="281a965a-d94b-4c73-89db-bfc766bc7137"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dbe523e9-9d88-47c7-a8fc-3b7ce95b56d3">
+                <propertyInstance
+                  Id="4f149900-a5f2-439e-ada4-b4bc595017a8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="35b30214-e109-4e5f-9876-1b5fcdd6e5ed">
+                <propertyInstance
+                  Id="e30d580c-6765-4e89-80fe-66a5b3cdca13"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc9c7902-130b-4acd-b1b5-8ad6b6fccede">
+                <propertyInstance
+                  Id="d71f126c-868b-4618-a8c4-ba65fc2aa002"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="29062a38-be0c-4ff7-be99-4c79f8520a00">
+                <propertyInstance
+                  Id="6e4f5179-4313-45ec-b413-48bcdac8dcdc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="698e8df6-8168-4080-b95b-ef9eff327701">
+                <propertyInstance
+                  Id="aa861331-96a0-4e4c-ba53-23d351eb6bb8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="0e6394ef-3e70-487a-bc4e-f37e1e152168"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f1885520-c914-41bc-9daa-2990bf48278f"
+              LastKnownName="AuthenticationOptions"
+              LastKnownLocation="Package2_1555.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6fde31e6-5964-460e-9711-a8e4895da8d9"
+        name="MicrosoftAccountAuthenticationMiddleware"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="49da04c6-48ac-46c2-98e0-158a78e52ba9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DMicrosoftAccountAuthenticationMiddleware"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="589a15b1-db1b-45e3-869b-5e0a537fc3da"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e251bc6-86e5-4c24-b38e-9d94922a78df">
+                <propertyInstance
+                  Id="797d4dc3-fb47-4b2b-85bf-ba606984a9ea"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af6a8493-86da-450e-83c8-4fbd23c09489">
+                <propertyInstance
+                  Id="9ea3db09-06a1-4e71-b542-d5a3ef672bf0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="56d3f083-f6a3-4a8d-ae0f-8b1b471a3ef1">
+                <propertyInstance
+                  Id="84d57c38-21a3-4e31-a0a9-a8e064234f2c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7d679b6-a50a-4d48-b1e3-f1f33228012c">
+                <propertyInstance
+                  Id="87faed45-4669-4043-b20d-b4bd1fcddc08"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96264b57-490b-46a3-94bd-68a3719a38ad">
+                <propertyInstance
+                  Id="0905a992-10ca-4ab6-88d8-c2e9887492c0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d57915ef-16b8-4d61-9287-8fc6a2e66bc5"
+        name="MicrosoftAccountAuthenticationProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7c14f519-fcf4-4382-9930-ea47862c3eea"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DMicrosoftAccountAuthenticationProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a0106eb7-5810-47e5-b7d1-4d7bb10a453a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8951c26f-d4ce-4841-bb41-828cbff33092">
+                <propertyInstance
+                  Id="78128731-8a0e-403a-9a4d-11b2f8a868af"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f15f6cec-9a0b-427e-a0df-19c5c0605cfc">
+                <propertyInstance
+                  Id="7621ada5-43b6-4f7b-a333-4795c734f81a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd06dedc-8699-420b-a85b-782347b69a21">
+                <propertyInstance
+                  Id="35ffc875-2ca8-48e2-a0a6-29e6857640a0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba749e27-2dee-4aaf-89b1-43438ed07313">
+                <propertyInstance
+                  Id="b759a65e-1e76-41ba-995a-2472b389ea54"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0990455c-3d9c-46ab-a8ab-e10d28e2ff36">
+                <propertyInstance
+                  Id="c531c196-2f26-4c52-8d10-b1da2fdba03e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d7ccf478-bc18-4942-905d-13513127b301"
+        name="Constants"
+        visibility="Package"
+        isAbstract="true"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="03fb1b94-d0c2-424c-93cf-86e29b466c12"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DConstants"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d4df1f8e-facd-4234-b372-2ce331190798"
+        name="Resources"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1940251e-5560-4e38-95ce-616f134ff07f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DResources"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="75199e81-7dd9-426a-85af-8c17eef508b2"
+        name="&lt;InvokeAsync&gt;d__0"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c1efd862-ec94-418c-879d-4d9e5e00fef3"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3D(Name%3D&lt;InvokeAsync&gt;d__0 ParentType%3DMicrosoftAccountAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e2742f80-6cc9-48ff-9bcf-3620793b8f40"
+        name="&lt;AuthenticateCoreAsync&gt;d__4"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="71d27167-313f-4105-ba1c-f915f0b24ca5"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3D(Name%3D&lt;AuthenticateCoreAsync&gt;d__4 ParentType%3DMicrosoftAccountAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0baf47bb-ba5d-4d53-a9e5-3b478112e862"
+        name="&lt;InvokeReturnPathAsync&gt;d__1a"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fc13ade1-d0af-4853-991b-13b59e2f5489"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3D(Name%3D&lt;InvokeReturnPathAsync&gt;d__1a ParentType%3DMicrosoftAccountAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eaeceeed-6e87-4e42-8377-f7781c93c029"
+        name="MicrosoftAccountAuthenticationHandler"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f125c788-395b-499e-b60d-c24647956dac"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.MicrosoftAccount.dll Namespace%3DMicrosoft.Owin.Security.MicrosoftAccount Type%3DMicrosoftAccountAuthenticationHandler"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,1140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3f0f65a3-5cde-4725-be86-050fa8723a82"
+  name="Builder"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="14345086-81bf-46cc-8fdf-18f14e9e0877"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Builder"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2c38e9f4-2723-4609-a4c8-5fadee12035c"
+        name="AppBuilderExtensions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a475fb1b-1581-40c8-bfad-55a3fb8a01a2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="19e3ffa4-ea82-4c06-ab3e-9910b094822d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37eebc43-e111-4cea-b850-35b2cc301138">
+                <propertyInstance
+                  Id="7496f244-0ea5-4a8f-9999-85d9a6f293d1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25dffa54-82b3-4df0-998d-591e7d0d9789">
+                <propertyInstance
+                  Id="ef69f3ca-f609-4423-b3fb-c85bd653aeb1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4ddd3d9a-81cb-443e-b690-6e2af0669ee7">
+                <propertyInstance
+                  Id="00235a25-2986-498f-8e11-ec6570507b4b"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e7629298-987a-4b62-bb9d-61411e49ad34">
+                <propertyInstance
+                  Id="77c404cf-2089-411d-b735-139a60f367c3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bcde3b7a-f75b-4c25-849a-123e92128df0">
+                <propertyInstance
+                  Id="d8113b79-9070-4530-9de3-3197ffe87147"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="af8e7223-c5e9-42f9-97a0-5c3beed783ed"
+            name="AddSignatureConversion"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d0b8e2d6-c767-430a-a4c0-73bf4c81c5fc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DAddSignatureConversion OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0262440c-fade-48ab-981c-36e3ffe9a47f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd7ab1f9-7273-4f8a-8101-c7927594c91b">
+                    <propertyInstance
+                      Id="0001d2e7-6758-49d2-b65d-a4ccd3b63848"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09c4ddc5-9587-44e0-b73f-531b881e5939">
+                    <propertyInstance
+                      Id="025367f6-10f2-47d2-9f3c-c3310a40e3c3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a62f592-94ea-454a-b5b9-5259f21e8ef9">
+                    <propertyInstance
+                      Id="9d6e4871-6f5c-48f3-a054-70c22b39b2b0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="562bcef8-93fe-4b05-8a51-1d975089b6b6">
+                    <propertyInstance
+                      Id="8dcef641-9f9a-49f6-b7f3-69b99c0f1cd0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0e63d7e-3c3d-4dde-9bd4-26f56e9bb436">
+                    <propertyInstance
+                      Id="f720588e-8793-469c-82e6-dcf1c1ab9ce4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e6fea1e-eae3-4aa1-b80a-f3d9051d65c1">
+                    <propertyInstance
+                      Id="58facf84-6bad-4f89-b520-4e1fe3a43c1a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cd8ec04f-9b8c-47b4-a923-c2aa8914a10a"
+                  name="builder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="669569ac-2a1e-454b-99aa-b780d2871f24"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DAddSignatureConversion OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)]) ParameterIdentifier%3Dbuilder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package4_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f1d8740a-9f37-4ae8-9bb3-5e77a56073fd"
+                  name="conversion"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b54f0c99-ab4b-41b0-9727-92937d0a6027"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DAddSignatureConversion OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)]) ParameterIdentifier%3Dconversion"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="bbf2a789-6c55-4ac2-84ad-a9e95b0e863f"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ef5d2c87-73ca-4528-836a-d2e81cdd63e8"
+            name="Build‎&lt;TApp‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e6ab2ff6-83a4-42e4-82cd-b14e60d3fc48"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DBuild GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a8f1eb86-6fb7-4f6c-81be-082bf64ce84f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbc57d83-2cc7-4675-be9e-96f664b6f7b4">
+                    <propertyInstance
+                      Id="db84ef64-555c-4b5b-b000-77698f46bb3c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42e1d9af-50d7-4764-ac9c-f453889f5113">
+                    <propertyInstance
+                      Id="98539b58-6424-462d-a01a-b540cb4c897f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="716ff6b1-1ac4-4275-9b79-ac29b84f40ee">
+                    <propertyInstance
+                      Id="5d85483b-179a-4745-93bf-0e766714c244"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56471499-70a9-428d-882d-c2d05887126d">
+                    <propertyInstance
+                      Id="b592b84b-a4a4-467d-84e2-d55a0bf85a96"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61724c2a-394a-450f-81cc-ebcf1cfcbeaa">
+                    <propertyInstance
+                      Id="b4989e07-1d90-47eb-ba83-2273942b5b6e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be8c78dc-c146-4e3b-b567-94b83ea9bdbb">
+                    <propertyInstance
+                      Id="95030165-6c01-460b-8958-60d2bf721883"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1050ba1c-be08-4b68-8782-b1524e44285d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d8f1d7ff-6914-40c0-bb7b-1b75afc3d7cf"
+                      LastKnownName="TApp"
+                      LastKnownLocation="Package17_1121.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f64d37f6-5f94-4296-b53b-2a36b14ae082"
+                  name="builder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b9598e6f-5bcd-42dc-a36f-79f55325cdfc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DBuild GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)]) ParameterIdentifier%3Dbuilder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package4_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="73717e02-053d-40cc-acf5-246d6d74e31f"
+            name="Build"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="49b18a66-5d96-41e1-bfb3-6d2dee9f1f00"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DBuild OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="56f81793-4ea6-4033-84bb-06f7c5e8cf3b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5901e5c-f72f-476d-9ffc-a52e79c6b816">
+                    <propertyInstance
+                      Id="57d88f46-1361-4e76-a3e5-f93046fe88ed"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="618a3452-d1c2-4861-a74f-1b66628182c9">
+                    <propertyInstance
+                      Id="f7cb333a-2d8e-453b-a396-b0f4229039a7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfe165e1-aa55-490e-8f33-4a369ac4d8c5">
+                    <propertyInstance
+                      Id="11c2d1df-8b4e-4670-a1c9-890287cccc71"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68923a07-a72b-4e58-9428-55390a7045d7">
+                    <propertyInstance
+                      Id="ad0006de-89fc-4cb3-9429-1e16a2d97ab8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="559f0dce-a35c-4e39-ab86-8b7b252280e5">
+                    <propertyInstance
+                      Id="8b374d91-c78e-443a-848b-c846c5d005a4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90c020a7-0449-467e-9a5a-9e6724e35e73">
+                    <propertyInstance
+                      Id="8d158a43-d652-4bcb-b734-255b7d679420"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="475c3102-a4f8-4ad7-8b98-3a26903414e1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f04af121-a9ba-47e3-ba39-aada36657c01"
+                      LastKnownName="Func&lt;IDictionary‎&lt;String‎, Object‎&gt;‎, Task‎&gt;"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="46d34442-bd9e-43dc-a468-427b497abad8"
+                  name="builder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ca9df064-0421-4cb6-a8e5-87f2515529db"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DBuild OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)]) ParameterIdentifier%3Dbuilder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package4_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="39156b1c-c48d-4998-aa6c-2d390e695b7b"
+            name="AddSignatureConversion‎&lt;T1‎, T2‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ba614f7e-0b0e-42a5-a210-cfa549066f68"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DAddSignatureConversion GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="baf219e6-b8d6-49d7-b742-cc29f99ba3b3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8890175a-feee-421f-8c09-3517702e95a5">
+                    <propertyInstance
+                      Id="928ec932-a3ec-4bb8-ba55-a2a84f5c223d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6d35c58-8769-4a3f-8d0e-bea2bc10c8d2">
+                    <propertyInstance
+                      Id="7cf935b0-561f-4d74-9020-c9928839f11b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d2f882b-20f3-4896-b4d0-6c5d174ac20d">
+                    <propertyInstance
+                      Id="c788d1be-2cf4-47ba-9c44-ef6276a236d0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1139e158-1526-45b7-b614-8ed08de3f669">
+                    <propertyInstance
+                      Id="7a156d53-606d-4c7d-b2af-1bc12813932d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8824bfa3-9c60-4cbe-8132-c22f4efc9352">
+                    <propertyInstance
+                      Id="cbd04ea6-f887-4f6a-ac57-551446045936"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b3fd0ef-ccc7-47cb-9e8b-abf119f87fd6">
+                    <propertyInstance
+                      Id="cf736dc9-39d2-4a3f-b39f-49dfa895c640"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="21784cd5-6071-4b2f-8b1f-416afa614d9f"
+                  name="builder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="17c2182e-8f37-473b-9c65-df45b395f1e8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DAddSignatureConversion GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3Dbuilder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package4_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1565947f-99bb-4f04-b314-35f9f0136222"
+                  name="conversion"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8599a6cd-2716-45f0-b8db-b9470a0d2638"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DAddSignatureConversion GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3Dconversion"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4c88f5ca-2781-49f6-8b8b-dc18b13969b5"
+                      LastKnownName="Func&lt;T1‎, T2‎&gt;"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="3e5b71b4-8b35-473b-adde-4dc2cfde15d9"
+        name="T1">
+        <referencesInternal>
+          <reference
+            Id="5da438ea-1f83-4fd2-aaf9-e8ac76b533fa"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DAddSignatureConversion GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d9c8bbad-d7cb-427f-9751-435165689543"
+        name="T2">
+        <referencesInternal>
+          <reference
+            Id="bab8a944-5888-497c-a0b4-601c545fcced"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DAddSignatureConversion GenericParameterCount%3D2 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(ParameterIdentifier%3D1)]))]) ParameterIdentifier%3D1"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d8f1d7ff-6914-40c0-bb7b-1b75afc3d7cf"
+        name="TApp">
+        <referencesInternal>
+          <reference
+            Id="8bb0bbd1-05ef-44de-9ae3-f17e842b6725"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilderExtensions Member%3D(Name%3DBuild GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bb75c459-6c76-42a8-9cac-d8c0da9e32a8"
+        name="AppBuilder"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1df807a2-7bd2-4257-bcd8-6c4d9e08ab04"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilder"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ee00c9d7-25b1-42ce-94f9-08bf8502fcb9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d7642df-d1f3-49cd-b779-57e37adba003">
+                <propertyInstance
+                  Id="6d433315-6f0e-4181-989e-0dc2605cf0d4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="296a7ac3-6ebb-4a46-8c4a-8ec1981ce4c0">
+                <propertyInstance
+                  Id="4aaa2086-cfcb-4745-9677-531f1fa6baf8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e16fd31b-b119-4fae-868c-865d269626f3">
+                <propertyInstance
+                  Id="50c64538-a30d-4d52-8bff-d1e678ed0088"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7adaa9c9-fd4a-497a-95a0-27c099751aa9">
+                <propertyInstance
+                  Id="d1b95990-7d83-4ab4-870c-b115cb7c6de4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1fd713f4-ded8-474e-8941-2a61a87b7818">
+                <propertyInstance
+                  Id="d0674ab0-574a-4a34-b014-3442a0e83cc8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="f7be65d7-213c-4e14-9d36-ceaa2d3a2748">
+            <interfaceMoniker
+              Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+              LastKnownName="IAppBuilder"
+              LastKnownLocation="Package4_0950.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="8f22c861-3e05-404e-b0d4-e54f67abca7c"
+            isDerived="false"
+            sourceEndRoleName="AppBuilder"
+            targetEndRoleName="Properties"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="189d445a-60aa-46e4-87f7-0544b829798a"
+              LastKnownName="IDictionary&lt;String‎, Object‎&gt;"
+              LastKnownLocation="Package9_1517.uml" />
+            <description>Property Properties references type IDictionary&lt;String‎, Object‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3b2f6636-b320-4ccb-92bc-7171e2d1e613"
+                  name="AppBuilder"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="cb56e1f7-2ded-4bfe-be55-961d4147e5d5"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a7452724-ec54-43ec-95e8-f15ea45363b9"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3c6fa05c-bd4f-4131-a5e9-57527946aed6"
+                  name="Properties"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ee62391b-36cc-490e-b96f-f5cb2fc3f707"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f358c6ed-5b47-4f4b-a461-dfed36b370cd"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4c9425d4-cc5a-4d71-9a7e-225d8700ec04"
+            name="Properties"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="da7167ed-0b9e-4fa2-a136-27181eb06095"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilder Member%3DProperties"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7f07f979-c4de-4467-80ad-822ced8c1a95"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3985e306-1ce2-4150-9b6c-b8b6be3d09fa">
+                    <propertyInstance
+                      Id="ea5cee0c-cd49-4a71-8f4b-97c237e5d7e6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4359bb06-893f-4a10-a09e-308696fac652">
+                    <propertyInstance
+                      Id="19b76c09-4925-4d18-bd84-47394d879a89"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d8640a2-a03c-4e22-abde-988c4aa7f5e0">
+                    <propertyInstance
+                      Id="810faaca-f07e-481b-9a6d-a58b54e4a2ca"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c9bf78f-b8aa-4971-bd87-fe8d1b5e9f73">
+                    <propertyInstance
+                      Id="290e374a-873d-40e9-a41f-5103240c510a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1748564-bf7b-4581-a51f-b08e1130c956">
+                    <propertyInstance
+                      Id="fdbc1d98-4a98-4b0f-b42a-ed688e77942b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24d7354e-68c4-463b-be9d-e57c2c2eda43">
+                    <propertyInstance
+                      Id="4d68ca9d-6c32-46e9-9243-0209d734ef2a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4486672e-4088-4457-9da9-a225d8aed05f">
+                    <propertyInstance
+                      Id="d0f6a5e8-cf07-46cd-9d30-b62dfc57964c"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="189d445a-60aa-46e4-87f7-0544b829798a"
+                LastKnownName="IDictionary&lt;String‎, Object‎&gt;"
+                LastKnownLocation="Package9_1517.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6c59b51e-0cee-40b7-8292-d669c998640a"
+            name="Build"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8d7a04f9-dc05-4754-94d0-79ba5c0d2f86"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilder Member%3D(Name%3DBuild OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DType)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="27318b42-9872-4d13-a26a-40c46035a771"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc796b6d-38fe-4054-a7d8-61a9ab7f973f">
+                    <propertyInstance
+                      Id="34282ac0-d817-4164-b5ae-5da97d944c6e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08daa562-19b3-4664-b18d-2b9be63ec988">
+                    <propertyInstance
+                      Id="687277bf-630a-4ae8-b8c2-5f57a7422a02"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c022f900-0950-4147-b983-98861418b6fd">
+                    <propertyInstance
+                      Id="a57be1b0-4cb5-4507-a985-231d43c1410a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5996c80-c540-4afa-b00c-d67b2a83a3aa">
+                    <propertyInstance
+                      Id="8246437d-cbf2-4acf-98ea-e614d8c2ed53"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5dd534d-64c9-4964-97dd-44ac51c176a5">
+                    <propertyInstance
+                      Id="f69f88e7-f201-4af5-96ca-b27c1e5debcd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fa89372-64c9-4e33-bc8b-3631a62afb7b">
+                    <propertyInstance
+                      Id="7eb0386f-b1a1-4c8c-9d30-f7210bfabbb8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6f63ac9b-5118-495e-8127-1cf8f8ee0c8a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="043fe4cb-0fa9-4475-a593-4070cb557b24"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d13e55c1-95e7-4d4f-8b09-c97b90bace0a"
+                  name="returnType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c15dffec-5c9e-4a87-8bc4-4093f5a1c133"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilder Member%3D(Name%3DBuild OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DType)]) ParameterIdentifier%3DreturnType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d2049e7c-028b-45a8-8d44-70a8a67340a8"
+                      LastKnownName="Type"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d7428200-31f6-4c64-96c9-3ed6b69cc115"
+            name="New"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b97976be-396a-4f2e-8e3b-7ee62baec621"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilder Member%3DNew"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cff1d526-d707-4a8f-bfbb-510c9d480080"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcac71e6-5f58-4c47-a081-aaa7bf11dd36">
+                    <propertyInstance
+                      Id="0916bcf8-ce4e-43a4-b395-009421cd88e2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f510e985-f5e8-42f7-b4c6-c80390678768">
+                    <propertyInstance
+                      Id="253d7623-f52b-4f7d-b266-01b7def94395"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15a429c6-da5f-4561-b465-17e976b64084">
+                    <propertyInstance
+                      Id="4934f98e-6ea1-4f5b-ae3e-378d9743db75"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b782ec8d-1737-4d70-a10c-c5b97df7b0c3">
+                    <propertyInstance
+                      Id="844b961e-4516-416d-a28e-ee67b5ed20a9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6928ca5c-75bc-41ee-8185-4d57ae7b78f2">
+                    <propertyInstance
+                      Id="36b01833-7102-4ae4-9956-eff2367d3793"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="035dc72b-1798-4c04-a1e6-39328e5f041f">
+                    <propertyInstance
+                      Id="ca71eaaf-bf31-4919-b98a-508e47104df2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="345e5c1b-7842-4ed6-aeac-c8ccbd22f90b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package4_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="88364369-4e8e-4388-a520-4b8a3a342fb5"
+            name="Use"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="44b02d43-79cb-4b2f-a6b9-55645f23156f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilder Member%3D(Name%3DUse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DObject ArrayRank%3D1 ParentType%3DObject))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a74ca6eb-1ff4-40e0-b009-d2b525d05dd0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce41c8d1-3b5e-4411-b2af-0be65ebc07d9">
+                    <propertyInstance
+                      Id="aa0f963f-cc9d-4bce-b71f-fe4435c8f258"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3470f2b2-10e1-43b1-8a60-95255dbe7640">
+                    <propertyInstance
+                      Id="db4f7964-6300-463a-85ff-5ce0df95e061"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5885b425-3fed-4a0f-b037-a7fa8804dd08">
+                    <propertyInstance
+                      Id="a1220120-4899-4366-b89c-ab1879f7c404"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb6b1d96-ba72-4fa1-90e5-63a90ac68751">
+                    <propertyInstance
+                      Id="247ad2d6-de9e-4742-b6c1-1a7aca4c6148"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07dbe005-1e97-47bf-b4e1-68b6c1f0e684">
+                    <propertyInstance
+                      Id="cfb8b2b8-6803-4cb3-b0b5-67399a037a95"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d12bd71-3e01-4dd8-a6c9-bb3e26f04b99">
+                    <propertyInstance
+                      Id="b3bb2f92-11ad-486a-9b1e-27455ab6b6c7"
+                      name="params"
+                      value="True" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9717334d-0663-47ec-94e8-defc6669be36"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package4_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cfbf1d26-1cbd-42a2-a4bf-1141d62a60c5"
+                  name="middleware"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="719e8551-3743-4c49-b8d3-8077fb31b87f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilder Member%3D(Name%3DUse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DObject ArrayRank%3D1 ParentType%3DObject))]) ParameterIdentifier%3Dmiddleware"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="043fe4cb-0fa9-4475-a593-4070cb557b24"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2d5fa30e-6090-4f93-98a2-728f150d753f"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="354d2341-3130-468e-b043-7de617e6eb9b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilder Member%3D(Name%3DUse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DObject ArrayRank%3D1 ParentType%3DObject))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5bf7699b-3fb6-41e2-98fd-0536ef54aa8f"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="72b08b0a-f031-4906-8c67-60e5edcfc1c6"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="043fe4cb-0fa9-4475-a593-4070cb557b24"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="34704e24-e6a5-4db0-bb24-ba94f1a4f638"
+            name="AppBuilder"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e4eac74a-8707-4a07-885e-d05d6d79e1ca"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DAppBuilder Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4b26016c-7904-4cbf-9cb9-c0164d10ce4e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a89ae411-e075-4f30-8ce6-4893933da304">
+                    <propertyInstance
+                      Id="8a49ac1a-8459-497a-82df-c24842e6a2f2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7a11a1b-faf9-493b-876f-b588c4f484b3">
+                    <propertyInstance
+                      Id="cbdb015c-0ff8-4305-b347-55854ab98290"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f53c1b99-f1c4-4b75-a368-9ad1d5bddfb5">
+                    <propertyInstance
+                      Id="58135968-83cc-4366-9e7e-5b9a7fd53436"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7c51176-55eb-4f1c-ba90-63c664109b46">
+                    <propertyInstance
+                      Id="4191d44e-03be-4de7-8a0b-156606cdadb7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f08175f-c3b5-4d8c-b7d1-49bc86cc1af1">
+                    <propertyInstance
+                      Id="37323c3e-cea3-4e92-84f7-f93fd65a58a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1084750b-a89a-4464-b551-40f44df2cdbe">
+                    <propertyInstance
+                      Id="8620241c-246c-409c-9d5d-15fca61e70c2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="14a028f0-f1fe-46b4-b703-e40c29a1c4b6"
+        name="Constants"
+        visibility="Package"
+        isAbstract="true"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ba4eee64-190b-4a3f-95e6-296d77b1e47a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DConstants"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="216ecd9f-4dd5-49d0-b076-4e41a054eb48"
+        name="NotFound"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="17be00e9-2fab-43b2-b945-6a568cf7a815"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Builder Type%3DNotFound"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

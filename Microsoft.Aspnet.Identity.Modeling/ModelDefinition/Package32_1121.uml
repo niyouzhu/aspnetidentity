@@ -1,0 +1,3023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="38da3fda-0e22-446b-8ff2-2a404408437d"
+  name="Notifications"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ec5c0d1f-a719-40f2-9fd4-17899dadf61f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Security.Notifications"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d6d9e36e-b59a-4ad9-adcf-7967bc99a896"
+        name="AuthenticationFailedNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c035dd77-fbcf-4dfd-990d-d8c6dca7cfc8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c83c4628-acf9-4e44-84dd-46cc0de56541"
+        name="MessageReceivedNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="202bd86f-0316-4af5-9d99-0f5026bd3e49"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="77db9ad5-e97f-4312-a553-507829542858"
+        name="RedirectToIdentityProviderNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="88c057e9-325b-4915-a0b9-67117b01508f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8e0d1f21-a283-4187-bbdc-4240bf52404c"
+        name="SecurityTokenReceivedNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="85e1dbf6-794e-4f57-97b8-75143a6ebcd6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d020a5cf-223c-484b-b765-3c52bfab9366"
+        name="SecurityTokenValidatedNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="95dcf5bb-c028-452b-b059-d485bb15d32b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="09072a4b-426c-4153-9f3c-95c623ac16db"
+        name="NotificationResultState"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="6ba14d43-37dc-4120-963a-44b698bd9252"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3DNotificationResultState"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="651dbbd3-3b00-4590-be5a-0db840c713a3"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7bef34cf-9e77-4af5-98c7-f603c6881242">
+                <propertyInstance
+                  Id="ccabbc74-4c43-4989-8e2b-bb47f0111aa0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a12a8732-3843-4d92-840b-cb4dc6256a07">
+                <propertyInstance
+                  Id="062fcc06-9ee5-4e7a-a257-f4881c2c8518"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d25ba96-9763-476e-bf94-edaee3823e7e">
+                <propertyInstance
+                  Id="09e0c6a7-2a7a-44c7-afab-ca2255dca4a0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="82b86c4f-5df3-4eeb-85c4-1041e4937972"
+            name="Continue">
+            <referencesInternal>
+              <reference
+                Id="dfc81a5e-f513-4ab0-8f46-99e9a5f43827"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3DNotificationResultState Member%3DContinue"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="70f49b90-c26c-4c33-87fb-5329c1b7bcf8"
+            name="HandledResponse">
+            <referencesInternal>
+              <reference
+                Id="d8092cd6-ca95-4efa-9552-bbe3be98c10e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3DNotificationResultState Member%3DHandledResponse"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="28e86e3c-ae02-40d2-9ab8-cdd7c2484760"
+            name="Skipped">
+            <referencesInternal>
+              <reference
+                Id="c1068d4f-af7d-48cf-a993-589d6a5aa833"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3DNotificationResultState Member%3DSkipped"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bb42dc8d-daae-4882-98a0-180eef7e9243"
+        name="AuthenticationFailedNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7e9f046e-390e-4bbb-9811-e4fc4f04814a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="34945ca8-0939-4e7b-8d79-05ef4074a247"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3a1f70b3-fe0b-414b-9de8-f54e755b1360">
+                <propertyInstance
+                  Id="e668e7a5-1b5f-4616-bf9b-192017028034"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2945fe08-045e-48b6-acbb-3108bb64bac0">
+                <propertyInstance
+                  Id="4bc4ac67-ab5f-4420-a81f-8c474245a436"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="167af345-7073-4fff-9206-2fef7c2413e4">
+                <propertyInstance
+                  Id="1b8c2484-c317-417f-845f-c7cd008de2b4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82af21d9-f689-411f-8b52-081f92a599e7">
+                <propertyInstance
+                  Id="c0fb95d6-0bee-4dc5-b73b-a8a772546812"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dddfa8bb-a1f2-4922-99b4-9a63514d69e5">
+                <propertyInstance
+                  Id="05df486b-c43a-4e10-8619-07ef408df5d1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="451d9fd1-0235-47a1-b0e8-f6bcfea64118"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fe5253bb-cddc-4eb1-8ef6-0ff1b060e382"
+              LastKnownName="BaseNotification&lt;TOptions‎&gt;"
+              LastKnownLocation="Package32_1121.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="212688d6-6792-4e19-bd07-2070c6e237f2"
+            isDerived="false"
+            sourceEndRoleName="AuthenticationFailedNotification"
+            targetEndRoleName="Exception"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c7ecbb2b-9760-42e2-97a8-58da595af736"
+              LastKnownName="Exception"
+              LastKnownLocation="Package3_1517.uml" />
+            <description>Property Exception references type Exception.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="39fbe366-53e7-4ebd-8317-6c5058e3f426"
+                  name="AuthenticationFailedNotification"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="482e8258-7ab2-468d-84d9-74380d1175ea"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9b4edc7b-bda9-4485-9c87-7d0d2fdf511b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="24565a98-c6d8-4a72-8604-f6536cac331b"
+                  name="Exception"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="cc945616-b885-4df6-b606-662bb88309e3"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ee404468-87be-42d4-94a5-479129dafada"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="af885825-ddbd-4ef2-b87a-b40471fa7859"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="fa4b042e-724f-4190-a195-5a03406dc901">
+                <referencesInternal>
+                  <reference
+                    Id="94685ed4-6541-4b76-8d0f-727f76fd7f20"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="0128afb4-e795-4c9d-861f-d733d6da605b"
+                    name="TMessage"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+              <classifierTemplateParameter
+                Id="8e32bc39-b06d-47c0-a6db-7927e50f9478">
+                <referencesInternal>
+                  <reference
+                    Id="685eac20-4172-4bc8-b7c5-0e30af6dec2e"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="51704acc-b25d-4e03-8add-71d161bb8100"
+                    name="TOptions"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="eeefcdf7-d9f1-47d7-8fa9-bd3e3b471861"
+            name="Exception"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ccfd700b-c7c1-4dc4-bd68-e5de9c767020"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) Member%3DException"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2a5bc37c-b2c8-4d73-8810-a36e985dc71c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20dc5fc8-0923-4f99-ae1b-0c1b46b6b5be">
+                    <propertyInstance
+                      Id="03e015dc-0642-4a25-9ec5-d79aae7c078c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74093b60-94e4-4ec3-acf1-dc0f73800345">
+                    <propertyInstance
+                      Id="aacec5fa-da1d-40db-ac2a-f5f8ef9bf002"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8b3245d-2fee-4492-8462-b0c3611e619e">
+                    <propertyInstance
+                      Id="d16719bd-5c04-4a01-aed3-e4cc3c4a0810"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62e38952-20de-4aaf-b8be-06ed759b7a58">
+                    <propertyInstance
+                      Id="01de6bb9-96f3-40ef-93d2-410718bafcf7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa16fe62-794c-4eae-9e22-c29967a47817">
+                    <propertyInstance
+                      Id="0dbee54a-5d8c-4b08-acea-c66039e193ef"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80ad8f70-fd8f-4c7f-a0be-341576f5d1aa">
+                    <propertyInstance
+                      Id="927d745c-b1e4-4a1c-9a04-62be5cee89af"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17199194-801f-462e-8b1a-0f83e62b7304">
+                    <propertyInstance
+                      Id="750512a9-bd83-4e5c-b1a4-1841057ec67b"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c7ecbb2b-9760-42e2-97a8-58da595af736"
+                LastKnownName="Exception"
+                LastKnownLocation="Package3_1517.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="68cd879c-0a45-489a-bfbb-950ae983d359"
+            name="ProtocolMessage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c27e90ff-3b45-4e35-bc6c-9ae1e99a3270"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) Member%3DProtocolMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9fda3bab-5844-4c35-b75e-3428d530bf68"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea5286f6-e7e6-46b1-a602-c436b6a8462c">
+                    <propertyInstance
+                      Id="a1d64cc8-8b92-4de2-8124-28b6b261eeea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35464001-1300-4967-aa6e-59324da411f7">
+                    <propertyInstance
+                      Id="6868ae8e-9757-4139-b012-3beb9227a2b0"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="daa2cd71-327b-4fa9-9a2c-dbe060be2754">
+                    <propertyInstance
+                      Id="d8b17e86-65b6-4e73-a3bb-17f0a9cd1ca8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae93f826-b025-4861-85f4-dddecb5cfcad">
+                    <propertyInstance
+                      Id="80cc893d-1966-4f7b-b535-ada413a0a81c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0825cfec-7aa5-44b8-a9b6-d3274650effe">
+                    <propertyInstance
+                      Id="7fe272a0-e48c-46e7-935f-b0ea58be308d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b827e2ff-1bc1-43b6-9a3e-11e52e522da5">
+                    <propertyInstance
+                      Id="eabee194-4be3-4721-8d64-366e0e41ead6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27657bc9-ae6f-43a8-b861-097a952672f9">
+                    <propertyInstance
+                      Id="0fd5707b-3ef6-42fe-a629-b28718502164"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0128afb4-e795-4c9d-861f-d733d6da605b"
+                LastKnownName="TMessage"
+                LastKnownLocation="Package32_1121.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="91493a0e-3b7a-4810-bb12-2e3d7c384962"
+            name="AuthenticationFailedNotification"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d0725fbd-de32-452d-8213-ce67746ddd21"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1bd5359d-7af6-4c61-a73a-a8056afaab5b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="202a7d67-8486-44e4-b5e6-261f1d7a7f22">
+                    <propertyInstance
+                      Id="d0190cb0-820f-4cf0-acc7-98ac719fadba"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="400bc3fd-3fcf-47df-9209-ffa6b6c61e09">
+                    <propertyInstance
+                      Id="880427f2-da35-4e25-969a-df4a9eee5620"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bede1d02-32fa-4a76-b151-af13a9d7590a">
+                    <propertyInstance
+                      Id="0a1ca244-93fd-48e0-945e-59179dc802a2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9259ad64-8877-4a42-8cf7-93c91418cb57">
+                    <propertyInstance
+                      Id="efd8a0c4-b017-4315-8be6-7c70579fd620"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5e80861-193c-460a-91bd-b9334f54b4f3">
+                    <propertyInstance
+                      Id="f74b6a1b-081d-42ea-a72a-d9ccda95f8e2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37439419-96d1-4bdf-9b58-30d79cd386a3">
+                    <propertyInstance
+                      Id="7d5b092c-82d7-45bb-b692-51dcc1926db3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cb908815-1bc4-428d-81bc-719d2ee3cffb"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8e8b3c52-e2d0-43e0-9454-15979b5bf9b0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="bce78345-0684-4cff-b92e-300189495d4c"
+                      LastKnownName="IOwinContext"
+                      LastKnownLocation="Package1_1555.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="55f9aae1-ced8-46f5-a5c7-9d0ce3b32fad"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0fd24e1c-a171-4e1c-96ad-2161bf847c89"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DAuthenticationFailedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Doptions"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="51704acc-b25d-4e03-8add-71d161bb8100"
+                      LastKnownName="TOptions"
+                      LastKnownLocation="Package32_1121.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fe5253bb-cddc-4eb1-8ef6-0ff1b060e382"
+        name="BaseNotification&lt;TOptions‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a5e309ab-6570-499a-86cd-bbe1459086f2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b862c41f-addd-4f01-8424-aad38f517429">
+                <propertyInstance
+                  Id="a461ccdf-1f3c-4fa1-b805-817a086848c2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51532409-7491-4e0d-b938-acec0dfb4dc6">
+                <propertyInstance
+                  Id="4f4d033f-64cb-418f-9855-fe9c828978c9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ac1f603-ed67-4ce7-b05e-3f109a8a8cb9">
+                <propertyInstance
+                  Id="a56fddd1-a557-4fd9-9549-6a7ae843a1d9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="06c945c0-a30f-481c-b84e-e44768c770f0">
+                <propertyInstance
+                  Id="4ab35cfe-949a-45e7-924c-7d5b60ecb712"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85b97fea-9a8e-428c-b590-f3835663f7fa">
+                <propertyInstance
+                  Id="172e5205-159f-40a2-a812-37b5bd163190"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="06ff17fd-96f5-4898-b659-6559ad328cc0">
+            <redefinableTemplateSignatureMoniker
+              Id="ac6deae2-80f7-40e3-8568-b70812b5efd1"
+              LastKnownLocation="Package32_1121.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="f8a90871-bf32-47c1-bbae-5caa9826d454">
+                  <actuals>
+                    <classMoniker
+                      Id="6d4142eb-e233-438d-bfa9-80c83422496c"
+                      LastKnownName="TOptions"
+                      LastKnownLocation="Package32_1121.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="cf96688a-d880-4aec-89a9-365f3413bf50"
+                      LastKnownLocation="Package32_1121.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+        <generalsInternal>
+          <generalization
+            Id="f7579bfa-ea72-4052-9123-cdd2359343e7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8facd5a8-efe8-44a0-b71f-d087e96060bb"
+              LastKnownName="BaseContext&lt;TOptions‎&gt;"
+              LastKnownLocation="Package_1121.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="db68d33b-d966-4d58-9f9f-2c7d3e2c7cea"
+        name="BaseNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9d26ebab-7227-49c6-9288-61b33bb9473c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="28501055-0a1c-456f-bc77-e9aa1c60b23f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a268408-9921-4820-955c-7fab87fd506a">
+                <propertyInstance
+                  Id="6ab6c478-86ed-45b2-9ead-77f43f9b7fd5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="639dabec-80ca-4b91-b53c-6ec84332f82d">
+                <propertyInstance
+                  Id="4688e32b-8983-4dd5-a565-b934c2d97ff4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3fcfb0aa-e6c0-48f5-ae3d-ce3acd040f82">
+                <propertyInstance
+                  Id="a6946224-81b0-4561-a87c-bd2987b6e6fa"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1018d4bf-abb1-49ba-8dde-c1547d45de33">
+                <propertyInstance
+                  Id="af80797a-506a-489a-9f4e-4f85fd47d534"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="20e24841-efc6-47f5-a2cb-6aa98df114ad">
+                <propertyInstance
+                  Id="e05708c0-dcfb-413b-ab42-2c3ad5086921"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="5f8abeb9-50d1-4727-9449-d7af5c0defae"
+            isSubstitutable="false">
+            <classMoniker
+              Id="39413e91-fc4c-4dd6-a504-80d658d8aa74"
+              LastKnownName="BaseContext"
+              LastKnownLocation="Package_1121.uml" />
+          </generalization>
+          <generalization
+            Id="78d5b79e-a464-4dbb-856b-3e6145192868"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8facd5a8-efe8-44a0-b71f-d087e96060bb"
+              LastKnownName="BaseContext&lt;TOptions‎&gt;"
+              LastKnownLocation="Package_1121.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="fb89a00c-7ea0-4b69-9e3e-33ebc9f98618"
+            isDerived="false"
+            sourceEndRoleName="BaseNotification"
+            targetEndRoleName="State"
+            isLeaf="false"
+            isAbstract="false">
+            <enumerationMoniker
+              Id="09072a4b-426c-4153-9f3c-95c623ac16db"
+              LastKnownName="NotificationResultState"
+              LastKnownLocation="Package32_1121.uml" />
+            <description>Property State references type NotificationResultState.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0ef31819-7821-4c00-8cb9-abf33446079b"
+                  name="BaseNotification"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5393a638-a394-4e26-b6ba-a3f33ef828d1"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b18312ab-9c97-42a3-bb25-c6589e347616"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea828db0-60af-4687-a0be-4909733e0dd8"
+                  name="State"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f66487d8-8503-4303-98d9-f075658c361d"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="afc8f0f9-1b76-47ae-b609-ad0987a68680"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="ac6deae2-80f7-40e3-8568-b70812b5efd1"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="cf96688a-d880-4aec-89a9-365f3413bf50">
+                <referencesInternal>
+                  <reference
+                    Id="b13ce6f6-dad5-456c-85b4-f9f498f533a5"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="365590df-35c1-4446-ba60-92bd64acf9f6"
+                    name="TOptions"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="fba3795f-ef60-4abc-8439-aee959b304ef"
+            name="HandledResponse"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="57f92699-e02e-45b7-b1f7-abe280ebe2af"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) Member%3DHandledResponse"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9c6c8f52-f4ee-45e5-8326-542a148df24c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a8b6ec0-2a53-4b79-90d6-0e10ada5d5a7">
+                    <propertyInstance
+                      Id="0a63e3e3-f739-4704-934f-0da47dd25a4a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86020bb9-65da-4c53-913e-ffd0445d70c5">
+                    <propertyInstance
+                      Id="b2d8533e-456a-4a72-81b2-41a55f77ccf1"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6902226-9026-4dc7-a279-3042387d42c2">
+                    <propertyInstance
+                      Id="140a373a-70f1-4d10-978f-7cfe0bb49eb5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5afbdaae-a676-41b2-a503-99c083925ad5">
+                    <propertyInstance
+                      Id="54dbd005-5008-4330-a252-6f27f0916c37"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="522c631f-99b5-4bed-83fc-5036f90b42d0">
+                    <propertyInstance
+                      Id="a3b7561c-e758-4278-a553-0cc5a6aff252"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c7da780-5966-4a0c-a852-3dd7f088b47f">
+                    <propertyInstance
+                      Id="edae8a0f-1e5e-4c03-9c0f-3c77e88c5b68"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8074d2e4-852a-4c2b-aa70-b4b1da520e84">
+                    <propertyInstance
+                      Id="39de1ba7-f0f1-4650-b3c3-fc767398972a"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="Microsoft.Aspnet.Identity.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="35898894-8db9-4ea7-960c-5d396c0ec6a2"
+            name="Skipped"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="50696086-9ae6-4c01-8a44-c2fd1b2c5e47"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) Member%3DSkipped"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c7db7ebb-a0c8-430f-9631-3cc097e0489d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b8a90ce-13c7-4465-b83e-08d9db85e81a">
+                    <propertyInstance
+                      Id="267daa86-d18f-4bf4-a009-bf53f9c36424"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad101b92-42a3-432f-a1a4-6898cd03a5a6">
+                    <propertyInstance
+                      Id="fbf82a50-19d0-424b-b13f-624f7b8267cd"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d45097c-5a72-42b9-9af1-679fda8704d1">
+                    <propertyInstance
+                      Id="5e67edcf-669e-4061-a489-50b31bc46df9"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa2bfd96-247a-4629-9fca-09a7c259bde4">
+                    <propertyInstance
+                      Id="1d5e6980-ca6c-4cff-8b45-7cbdc14ff517"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99f1efe8-1c97-4d6f-bed9-cf441d1b78d8">
+                    <propertyInstance
+                      Id="38471e87-e70c-40d2-a3fc-eeca0109a6b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf487626-8750-478f-8631-95c674d4eddb">
+                    <propertyInstance
+                      Id="c93c6dce-271f-4d8d-8893-27a4834fe59e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb18847e-c09f-40e5-bc81-e745e0697f2d">
+                    <propertyInstance
+                      Id="3da12f41-4a12-4f0c-ac19-a69eb81b64b8"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="Microsoft.Aspnet.Identity.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="63f7bc7b-302e-431c-9d0b-dab7ee1cbe50"
+            name="State"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e498e8d8-5c67-4314-8ee9-0d89501935ec"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) Member%3DState"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6b21d17b-534e-4e10-b5a3-7c5d6cebd976"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06149ce8-13e5-4741-9c87-1bf35c33112b">
+                    <propertyInstance
+                      Id="859ee278-63f8-46ea-8161-b0fcefcab4e4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1e47421-28f2-4c00-8e7c-105f7c09813c">
+                    <propertyInstance
+                      Id="6cf1e325-6a4b-4d22-a177-6473abad2ea2"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6198a9b5-06cd-48f5-8b93-f686be86e24c">
+                    <propertyInstance
+                      Id="e86ba9ea-2b6f-4a58-bcce-85272074e9ba"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9156884f-36f6-455f-b5f4-5041b21790f8">
+                    <propertyInstance
+                      Id="a9150a22-15e0-4c77-bc3d-df7867b7aad4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="713dffcb-f82a-4b81-9ee6-d3a0195dd254">
+                    <propertyInstance
+                      Id="4b540296-8e0e-464d-a22a-4034bb0d323b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9953d787-031f-4fa1-aaff-286d2e282d02">
+                    <propertyInstance
+                      Id="0d9be4f5-4c71-4cad-ba03-a8f480c92a89"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f07421e-eaaa-4c8b-9c8f-6f328168e138">
+                    <propertyInstance
+                      Id="989c1d79-ab1f-4e98-b147-e4b1dde55cc6"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="09072a4b-426c-4153-9f3c-95c623ac16db"
+                LastKnownName="NotificationResultState"
+                LastKnownLocation="Package32_1121.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6d10b7ba-acdb-4593-8605-0e78d117ef0c"
+            name="BaseNotification"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="63a6936b-4665-4c47-93cc-305f40f78b3b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) ParameterIdentifier%3D0)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="20ff1400-fc69-46ab-a8d9-8698ff2edbff"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c0133e2-b4c0-48c1-8f2d-b461aaf3ce9e">
+                    <propertyInstance
+                      Id="26b5d875-ae6f-41e5-ac0d-5f6e294e5b6b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acaee6c2-87f4-40a2-860b-43c2bf110a77">
+                    <propertyInstance
+                      Id="1e4478cb-059a-4287-8de0-6922e6699b4a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f1994a9-a9cd-4091-9459-30b347c40419">
+                    <propertyInstance
+                      Id="4fbc6d43-da2c-46b4-9942-384258835273"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ed59c92-cdf7-4c74-97b1-5b4fd612c1e7">
+                    <propertyInstance
+                      Id="e7bb2140-36f7-4f39-b0dd-350bf4fb6603"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="070ff59e-41d5-4d95-8f6f-9e7a2908449f">
+                    <propertyInstance
+                      Id="e5829415-c1bc-4936-913d-11cd8290ff32"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adf9c8e5-d0f0-47ff-a61b-99d3a2a8f9e8">
+                    <propertyInstance
+                      Id="9f19ff9e-deb0-4035-9420-ee26476301a8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b6d5be02-52df-44ef-9922-7d808100abe6"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1e56fbbd-2540-480d-94ba-3afe63abe439"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) ParameterIdentifier%3D0)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="bce78345-0684-4cff-b92e-300189495d4c"
+                      LastKnownName="IOwinContext"
+                      LastKnownLocation="Package1_1555.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2ab505a2-7f98-4396-ae45-9199c9517a68"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b76b24e3-28ca-4c4d-816b-63b6a92b8903"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) ParameterIdentifier%3D0)]) ParameterIdentifier%3Doptions"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="365590df-35c1-4446-ba60-92bd64acf9f6"
+                      LastKnownName="TOptions"
+                      LastKnownLocation="Package32_1121.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5d107e48-060d-48bd-aa0e-6c550a502785"
+            name="HandleResponse"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="60b0f51c-0545-4891-88b5-53e09a84bdea"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) Member%3DHandleResponse"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="92368afd-6312-4550-9f91-bb18bc5feda9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="548e070a-8741-4220-8996-9ac566bb1236">
+                    <propertyInstance
+                      Id="268f55c7-871d-4cc1-a554-afc100dbca27"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af7b93d8-6756-4e01-8f8d-80677f6bb9e4">
+                    <propertyInstance
+                      Id="1491393b-943c-4902-a4dd-ed2664c3f0bc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3055f01d-9f04-4eee-a562-ac26c39e3a34">
+                    <propertyInstance
+                      Id="1006aad9-be8d-44ad-a4ec-8b03bbe88adb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="faf7a36d-b572-441f-9e6f-5b78922bb8fa">
+                    <propertyInstance
+                      Id="134030f4-99e5-45bc-a1c6-fe4ee6dc52ff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="331354b5-0864-48d6-b281-df5fd6c20979">
+                    <propertyInstance
+                      Id="95590e31-f349-4a11-879b-82cc9bc8f3ae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96557aed-7f86-4d13-aec4-70d835ef5652">
+                    <propertyInstance
+                      Id="124dde7d-90e3-4011-8afc-74015b51fc60"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="5c956f45-614b-4b6b-b19d-fcfe2e402021"
+            name="SkipToNextMiddleware"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="67f43c0d-7c4b-41bc-90f7-d86b5cc2660b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1) Member%3DSkipToNextMiddleware"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="28a0170e-cf3f-49cb-baeb-b7c9085de762"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd5eb526-4a0b-46ef-9a4f-7782b33d5657">
+                    <propertyInstance
+                      Id="db10320c-3139-435e-80f4-702a678e4821"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd930311-5056-4227-b0a6-e848111ee640">
+                    <propertyInstance
+                      Id="10cf6508-32ce-4a67-b8c7-632fec9ade92"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9aaf5b6-fe43-4371-989e-508f71da7fa5">
+                    <propertyInstance
+                      Id="941c36b7-0a5e-4d34-a664-96aca1ea7e4d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78118444-90f8-4fbb-9fa6-ddf80b53f55b">
+                    <propertyInstance
+                      Id="cbea59b0-24b1-417d-b610-29fea06f8b69"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3e20489-aeff-4b08-b1aa-7dac21ac3e8c">
+                    <propertyInstance
+                      Id="fc64ff2f-fe38-4b72-8350-e8d5482652fa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="053f4760-b9a9-40ee-9fa7-830ff9f7d0ca">
+                    <propertyInstance
+                      Id="a08b0dfa-8f86-4ae8-8fec-47ba8e75cca2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6f2c9ba8-1846-4a25-9ac0-b74f22da0df6"
+        name="MessageReceivedNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f055865e-11dc-49e6-8cc2-d19c8fb63ca4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9ba95e46-5a2b-4d74-9d48-abbacd0f074b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e5b97e2a-4c9d-4c4e-8e9e-13ec2ebee83a">
+                <propertyInstance
+                  Id="df709487-dae8-4c7f-92c4-c54743325d95"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d04a8cb7-1536-4337-9dcb-c611e53c99f1">
+                <propertyInstance
+                  Id="fd41a33a-5ed1-4dca-ba81-207858d6597d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9be17e36-c52c-45e9-8aa8-0aa775292aa8">
+                <propertyInstance
+                  Id="ebb399a7-cb1f-484b-a0ea-bc1140a474a3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d341e0d1-f777-459d-84ec-b1b6c8b2777c">
+                <propertyInstance
+                  Id="6543d89e-ee54-4cf2-bf34-4b7fafaa58d0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c12cd295-b871-4fc6-8a3d-9a936227313e">
+                <propertyInstance
+                  Id="5d51447b-3752-4f77-96d3-b1d9c4183292"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="c12aebf9-f6f3-4904-b5cc-583a58748b1c"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fe5253bb-cddc-4eb1-8ef6-0ff1b060e382"
+              LastKnownName="BaseNotification&lt;TOptions‎&gt;"
+              LastKnownLocation="Package32_1121.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="d987e4b4-5386-422d-8399-ff3f800f0545"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="02d12fc5-426c-4799-8952-cd61c75a8594">
+                <referencesInternal>
+                  <reference
+                    Id="1acb4ce1-b604-4a18-8686-038b80314d16"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="b3bcd47c-22bd-4eef-b5bb-8717b7da5a6c"
+                    name="TMessage"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+              <classifierTemplateParameter
+                Id="ab35af55-2135-4841-857a-7625d8b90751">
+                <referencesInternal>
+                  <reference
+                    Id="25a37010-99a5-485e-a8b7-405c3019de2b"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="ede1903f-2018-4474-8bb7-b9227989338d"
+                    name="TOptions"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="89e1a664-6cb1-40bd-ac9b-8ee3f0300e07"
+            name="ProtocolMessage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="17ef2d11-780a-4d2c-b6fe-3c25d8f1cd22"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2) Member%3DProtocolMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="044c5336-3f0b-40fd-9abe-66dc3e234750"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="047b701a-4114-4044-8f24-7626f6a4551a">
+                    <propertyInstance
+                      Id="d3ba0b86-2ca2-40ab-be02-ecfe916aabad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="040189a9-72ea-49ff-adc6-61c7b6b74f10">
+                    <propertyInstance
+                      Id="7e7a40a1-ab44-4520-8f58-cb80a5e11a33"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="143c7192-3687-4fe4-96d9-d3b803d824f8">
+                    <propertyInstance
+                      Id="525c452d-d684-4bdd-a4c8-bcbfe820c693"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3af33d1c-46eb-4a4d-8d3f-ed958ab1fe6d">
+                    <propertyInstance
+                      Id="63611593-c76b-4162-bc08-20d1abef40fa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="661ecddd-2fc6-4091-a56c-af5a8e5f3a8a">
+                    <propertyInstance
+                      Id="cb851914-1b4a-4772-a395-3c169f4b264d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d0e1938-15e4-44c6-85e2-e3a05761329c">
+                    <propertyInstance
+                      Id="d31331f4-5692-4e07-9567-9ffb2e30ac6c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac583d70-eda2-490a-b077-ec7e64e3e4f8">
+                    <propertyInstance
+                      Id="ac458133-632b-49f7-86a2-ca8aecf797ab"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b3bcd47c-22bd-4eef-b5bb-8717b7da5a6c"
+                LastKnownName="TMessage"
+                LastKnownLocation="Package32_1121.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="95b1db99-22b9-4171-93c4-fa292abd69bd"
+            name="MessageReceivedNotification"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="265b5944-70b7-4609-934a-9ac6e0e914d7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b93c9da5-2115-4c19-9e25-54d3d74636c6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91ba3bc1-58d3-4360-9107-7b571d325275">
+                    <propertyInstance
+                      Id="411cd57a-6c60-43ff-a366-7d12e0d61e3d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36ce7455-d26b-4fae-bd2a-bae404b9f6fe">
+                    <propertyInstance
+                      Id="4672dacc-a672-4535-acdc-34333b06cbba"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59904747-c338-4ff8-9fd8-c254d6e4a75f">
+                    <propertyInstance
+                      Id="a0e5dde8-1ee9-4733-8838-cc1b2c4dd204"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c17ee2b-88fd-4431-85c5-0a7ef2a3f117">
+                    <propertyInstance
+                      Id="808c0f1a-aac3-4801-ab59-b90f9a4819db"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dddac9cc-6f27-45a2-b1a5-bad541138549">
+                    <propertyInstance
+                      Id="8e962808-173f-46e7-8027-80b2e6d76e44"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ad8f3ec-3bc3-4225-8879-9d158b1d4d89">
+                    <propertyInstance
+                      Id="10fcdf1b-f895-438f-b4ee-44f2903a27d5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7d1f95c7-1b21-46f2-bea1-3415b89c52ff"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fd96e3a4-d417-4518-a47d-598a9af86332"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="bce78345-0684-4cff-b92e-300189495d4c"
+                      LastKnownName="IOwinContext"
+                      LastKnownLocation="Package1_1555.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="80fe179c-72b0-488c-9203-e0bc9b3f9b55"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d6009d63-ca30-490a-b7d2-43b5e88984ae"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DMessageReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Doptions"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ede1903f-2018-4474-8bb7-b9227989338d"
+                      LastKnownName="TOptions"
+                      LastKnownLocation="Package32_1121.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="99b02475-2569-447c-b122-532dc6653d37"
+        name="RedirectToIdentityProviderNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2b8d1788-64f2-41dd-b857-f5d4b9dec25b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9494e93d-ad4c-48a7-8d15-8a9284d8c5cd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c1dd14f-91b6-4f91-95cb-d1280b5bf527">
+                <propertyInstance
+                  Id="95498a1d-e0e8-4c39-8965-c6722759a758"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2188e79-2aac-4c4e-b9e6-f7bc506389d1">
+                <propertyInstance
+                  Id="b63a6367-0ec0-43bc-a7da-7b9e401faf8a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94165f8f-92ee-4c35-b8aa-f5e29c4625c4">
+                <propertyInstance
+                  Id="f08c96ef-4d42-4e0e-85d3-4690dddb4ff7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a07c9735-30b1-4db8-b93d-86ff8cd5282c">
+                <propertyInstance
+                  Id="4126bf72-da64-4a75-b536-71f9610f8789"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5022e3b9-8aae-4747-a5b0-abd2d18ea662">
+                <propertyInstance
+                  Id="d58c75f6-9459-4acd-9641-6311c3a639d5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="eb0aa491-3438-4da7-8888-11f8963eaf5f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8facd5a8-efe8-44a0-b71f-d087e96060bb"
+              LastKnownName="BaseContext&lt;TOptions‎&gt;"
+              LastKnownLocation="Package_1121.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="6ebefec3-70c9-4d41-9afd-abe2a92c5291"
+            isDerived="false"
+            sourceEndRoleName="RedirectToIdentityProviderNotification"
+            targetEndRoleName="State"
+            isLeaf="false"
+            isAbstract="false">
+            <enumerationMoniker
+              Id="09072a4b-426c-4153-9f3c-95c623ac16db"
+              LastKnownName="NotificationResultState"
+              LastKnownLocation="Package32_1121.uml" />
+            <description>Property State references type NotificationResultState.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="163d1cc3-b762-4861-8af8-e13e7b84b795"
+                  name="RedirectToIdentityProviderNotification"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="aa0929e4-7a27-42f1-9b81-3f654792a8d3"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2ee19b90-103b-4887-83d5-8406ec5971bd"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3c8dcdea-7290-4628-b818-cabddcaa8ef3"
+                  name="State"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e11e704a-769a-4293-9357-56e53d932413"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0e1fe5e3-0505-4634-88bc-00b0c4a65c83"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="ad3b1b4f-2b5e-46a0-8516-8ca230ae1ae9"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="77189d61-6d9d-47bc-ba4e-d9db0716c980">
+                <referencesInternal>
+                  <reference
+                    Id="85eaad4d-56ba-42d9-aa3e-e51cf71348ae"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="bf8894c3-2288-4c79-8368-23882a205ef1"
+                    name="TMessage"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+              <classifierTemplateParameter
+                Id="fb3e1972-3ca1-4904-a922-e282faf79f4b">
+                <referencesInternal>
+                  <reference
+                    Id="dfadb1f6-b5fb-4a97-989a-8d2ac0590417"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) ParameterIdentifier%3D1"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="e7e110d8-90a3-40dc-861c-9974d8ae03c0"
+                    name="TOptions"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="f4c4df4c-f24a-4066-8bc1-339fbd2ad2d9"
+            name="HandledResponse"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="85cb5bd4-2585-4fa9-974e-6b795f8b0d16"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) Member%3DHandledResponse"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0b8f2e6e-e875-47ca-a4fd-19e8ecba097c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d26ea44-79f3-43d4-bebc-499ab0664c48">
+                    <propertyInstance
+                      Id="fb4eef1d-e714-43a8-8b3a-7a80492eb533"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11e58771-4489-4812-b2cf-5ad55386bb43">
+                    <propertyInstance
+                      Id="820ee0c6-7c80-402a-9ec5-f6cc05b07f4d"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="001f4ca9-2ed7-4eef-8b62-08d3ae398a46">
+                    <propertyInstance
+                      Id="c08e90ad-1e76-44f9-82bc-bef1b709123a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="031fd1be-1fad-4eea-981d-93de85358380">
+                    <propertyInstance
+                      Id="991af65d-2d0a-4672-9f1d-26205825477a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1349b4be-e310-4a7c-a55d-601292104a45">
+                    <propertyInstance
+                      Id="3855966c-cbb1-4001-b558-9da7d41543a7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dcf3bce8-80a9-4ea5-9ae0-ad1abd6aa9b5">
+                    <propertyInstance
+                      Id="330e0df1-67b8-4359-beb2-80d692291767"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2c357f0-903e-4be6-b8e9-00d117ae2e3a">
+                    <propertyInstance
+                      Id="10bdbfed-ed90-49dc-9521-ed59dba2d812"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="Microsoft.Aspnet.Identity.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="53a91799-834c-4351-90db-b0295eeb477a"
+            name="ProtocolMessage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="82c7d780-5da5-4cf6-9d76-7a556591b5a6"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) Member%3DProtocolMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ef05b31f-537f-4ab0-8621-f93cfa9582b8"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ac907d5-754d-4d51-8b8d-49c3eabc62b3">
+                    <propertyInstance
+                      Id="c216bb4a-9b8e-498a-a91a-b9d3be68ae01"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb74f460-667b-45c2-8775-4800d9267f94">
+                    <propertyInstance
+                      Id="3fae2d7c-7b12-4e8f-8880-d2dc956a848b"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41c2978c-503d-42f1-8410-a40e32ecc465">
+                    <propertyInstance
+                      Id="9e2690e9-3932-415d-94a6-e777916d68b6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="709cd161-d868-489c-9a1a-5075744e5247">
+                    <propertyInstance
+                      Id="1c69ee44-0af4-4b52-b06a-b34851b1e4ef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c16f5fd-25f0-4edf-8928-77997ac5d4d2">
+                    <propertyInstance
+                      Id="d3894f0d-1243-43d9-9368-285d0ac44002"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94c5a17a-a887-4824-a9d8-e561a44d4c84">
+                    <propertyInstance
+                      Id="c1759352-acaf-49c4-9356-d491da95b36b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81c7b77e-40a0-4fca-88ab-b3390b7dc0b4">
+                    <propertyInstance
+                      Id="0ed81a7c-3c25-4ee0-93ad-931fd589c798"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bf8894c3-2288-4c79-8368-23882a205ef1"
+                LastKnownName="TMessage"
+                LastKnownLocation="Package32_1121.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7a4702f4-efd0-42ed-9e9e-749a1ed3fa84"
+            name="State"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1117e3f9-c69b-47c3-8d9c-46aa8f338da2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) Member%3DState"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cc98c013-a18e-4bd9-9402-0c0390acae9a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af7c4b16-4fbd-429b-8c5e-ce3178fb77a8">
+                    <propertyInstance
+                      Id="c3339415-a794-4caf-91ab-6d34b66dedcc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1750fcf-a298-41ab-856c-52de8bf3e871">
+                    <propertyInstance
+                      Id="9246c8b9-6168-463b-9856-f8f1e60ad024"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7309ba4-1f8b-4d32-8720-b18204c9cf52">
+                    <propertyInstance
+                      Id="af55e2b7-d975-4ba2-92d8-c48e4bf939d4"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3b3faed-6138-4866-90ba-6cf98252b405">
+                    <propertyInstance
+                      Id="dec7e3c9-a3ac-4a60-84cb-91046a156526"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e5bf9e3-8946-44fb-89ea-bac526bb95e4">
+                    <propertyInstance
+                      Id="8ea931b8-a154-487e-a44a-77a45f5fb9cb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="700297ff-18aa-44b4-b34b-4ec5bce65b7b">
+                    <propertyInstance
+                      Id="9c272eba-2fc6-4e90-8703-4d6230b47423"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4ece759-9ae6-47d0-8019-bed1846e796b">
+                    <propertyInstance
+                      Id="66f2baee-32a5-468b-a4a6-a60947617695"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="09072a4b-426c-4153-9f3c-95c623ac16db"
+                LastKnownName="NotificationResultState"
+                LastKnownLocation="Package32_1121.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="84f7e804-240d-4a33-aeff-90d51e2a81b8"
+            name="HandleResponse"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a8649c5f-0679-4cde-9ca5-ce89e07e7429"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) Member%3DHandleResponse"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e72ea086-a919-4243-9e35-24137ffcd9aa"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="078df18d-cea6-4944-b8a0-a04906baacc6">
+                    <propertyInstance
+                      Id="8d2fd60f-d9d9-46cb-b341-706ec7b98673"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97abc469-1113-49cf-8363-0e40050e11da">
+                    <propertyInstance
+                      Id="bb4941d1-58e8-4c14-bf93-827abcffc26c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bb25ed7-ed15-42f4-81cb-655195fad673">
+                    <propertyInstance
+                      Id="20744bc1-79d8-4ea4-8016-3762ee2b7fe0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="196022c9-5e26-45c0-940b-189d9c5a750e">
+                    <propertyInstance
+                      Id="cef27548-2fbf-462f-943a-a56a0380a849"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9867270-b772-43df-9766-a88604877c40">
+                    <propertyInstance
+                      Id="7d4bdd25-7639-4e20-90e6-84f160324e70"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5eb1d468-57c0-4632-a954-ab669ccc0a25">
+                    <propertyInstance
+                      Id="449b1739-22fe-4b0d-acd0-09b6d5268c80"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="0c928803-6a40-4b11-a871-ae8d65208fc6"
+            name="RedirectToIdentityProviderNotification"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7f7a7e42-f0ec-4d49-b75d-3e556ce6ccc7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1702f681-fbdb-439b-99c5-a1b6b0d3dc75"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5eeda54-4e18-469a-a80e-e377451795e7">
+                    <propertyInstance
+                      Id="20b8d5bc-fffd-45a7-a944-c08343f4f507"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6169e98-dbdf-41a7-bc94-6745cc5620a8">
+                    <propertyInstance
+                      Id="97dd3f75-f6c6-466a-a55d-503a170bb629"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4edcb769-7f21-46fd-8c60-797e7933757d">
+                    <propertyInstance
+                      Id="ca0a50f9-c3c8-4305-ae69-acbb3e0939c6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="146b7263-e24a-40e5-b8fd-d6a845d10ee5">
+                    <propertyInstance
+                      Id="00e92566-27db-4257-862d-8f1f44f8bd66"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a970ea5c-5f8f-417d-8b78-4afa868b5b4b">
+                    <propertyInstance
+                      Id="4c1a17bb-f4b7-49c8-9925-416cfb54a23c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a13fe030-5909-4f63-b2d3-7f52ba640dd4">
+                    <propertyInstance
+                      Id="8af635db-9ed2-404f-bee5-7531085b2d47"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b4956a54-104d-46ca-871d-3e9501520389"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1d50f50f-ea92-42df-bc0f-5583ee616169"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="bce78345-0684-4cff-b92e-300189495d4c"
+                      LastKnownName="IOwinContext"
+                      LastKnownLocation="Package1_1555.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="652e39dd-5f2c-41d8-80e1-8e961aae1027"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ada90f21-a044-4a9e-999d-59c28922faa1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DRedirectToIdentityProviderNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Doptions"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e7e110d8-90a3-40dc-861c-9974d8ae03c0"
+                      LastKnownName="TOptions"
+                      LastKnownLocation="Package32_1121.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ab72c1ae-b4b1-41ad-8229-b2c46dd944a7"
+        name="SecurityTokenReceivedNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="62058424-5dcd-4d2d-8536-06e0b4d04c6e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="03b891a4-fcd3-4782-83ab-026ebdb40173"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3b7d8938-a5e3-4280-8bb2-6bcafab7b780">
+                <propertyInstance
+                  Id="0f36a0ef-07a9-4793-9746-afa090d4a471"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ed191e2-7f3e-4c35-8e59-2167bfd0a299">
+                <propertyInstance
+                  Id="9c8c72c8-43db-47c2-8579-145583ae7d1b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eec83a63-be51-437a-aab6-76a87ae5d054">
+                <propertyInstance
+                  Id="be999af2-d900-4f4e-b32c-4a4dd59de026"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1fb887d1-01f6-4236-aff9-ec9c6711f70a">
+                <propertyInstance
+                  Id="653130a5-48ad-48cf-ab91-198442b9914c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa135ee7-1ec5-4ef0-94b3-6b05d06d5e67">
+                <propertyInstance
+                  Id="a64e2303-6186-4bab-b067-4a868bd3f2ba"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="46477b86-5460-4398-8335-c1db356a8faa"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fe5253bb-cddc-4eb1-8ef6-0ff1b060e382"
+              LastKnownName="BaseNotification&lt;TOptions‎&gt;"
+              LastKnownLocation="Package32_1121.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="41871258-bd18-4216-b5e3-dbde7cb7ea44"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="53983b5d-ec03-49ad-a372-b5792ce154d3">
+                <referencesInternal>
+                  <reference
+                    Id="3932e444-dda2-422a-973f-790a4e8c5f50"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="882177f5-0068-4035-b7b2-b6bb3b4cf008"
+                    name="TMessage"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+              <classifierTemplateParameter
+                Id="3aed39a0-9207-43cb-8361-9e8dc266c7e9">
+                <referencesInternal>
+                  <reference
+                    Id="d6c12f84-0362-4d55-b202-527e24fe460e"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="12d38a29-31b6-4895-9444-fd01562c7953"
+                    name="TOptions"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="cc4cd04b-6464-42e7-832e-d9db50276184"
+            name="ProtocolMessage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c3907b4a-5db0-4550-b986-114630a107c0"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2) Member%3DProtocolMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3774c6e3-1461-42bb-a9ae-0243b524aaa4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee41b5ff-372c-41a2-b60c-53db8e4ab877">
+                    <propertyInstance
+                      Id="ccb10049-4257-4f64-97ef-c87cb66103c8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6e313ec-3b5a-4432-8cb6-af3f1b418ed7">
+                    <propertyInstance
+                      Id="33af8f65-2232-4a85-a483-4523a768e480"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e224dbf-a6ec-4340-bb64-6ff977a4cf15">
+                    <propertyInstance
+                      Id="bdd83f2c-473c-493b-9c23-1508b227125d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2dbaec6-f57e-40b8-9473-3e4856036686">
+                    <propertyInstance
+                      Id="54eff476-66f2-4e50-bbe6-28a4269f14fb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ab890f7-cd30-4a21-892f-4a8274161079">
+                    <propertyInstance
+                      Id="f6504048-945d-4dca-ae7f-4bb264ecbc1a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29747839-5c9b-4e6d-9b90-6fb64f17c03f">
+                    <propertyInstance
+                      Id="a344f2df-e76c-4cf4-ab1b-64f527a70d6a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbaa7c4e-ea76-4728-8c07-12739fa7c015">
+                    <propertyInstance
+                      Id="d5479302-93e6-4e01-a34b-1eac0c447fbb"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="882177f5-0068-4035-b7b2-b6bb3b4cf008"
+                LastKnownName="TMessage"
+                LastKnownLocation="Package32_1121.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ec554e8c-1969-470a-b636-200e04232fb5"
+            name="SecurityTokenReceivedNotification"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="10fa8dcb-b003-40ac-8606-c4282ff63587"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="992deae0-dde8-4b47-9f14-e560ffceb25c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39f8445c-857e-487b-ad5a-cbd8330d7157">
+                    <propertyInstance
+                      Id="f40c3533-3182-40cd-9697-2cc08dc53614"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="224afde6-ee5f-4bbc-935e-56697826800b">
+                    <propertyInstance
+                      Id="d3c29901-4af6-4f99-bfe0-fbbecb0b5bc0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28c6ba92-035d-4646-8338-e2cdf9684274">
+                    <propertyInstance
+                      Id="c61cb54a-22d9-4d72-8455-5e5e146fb58c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c660d5c8-b1b0-4937-9add-65608d003c7a">
+                    <propertyInstance
+                      Id="b5752495-139c-444c-a8af-451d0e212b2e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b000c4a-a359-4af1-b061-80ede948e175">
+                    <propertyInstance
+                      Id="344fe1ce-1111-43e3-84c8-5b40503d2168"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6758ff6-f3de-447a-9131-fdf9febdf8a9">
+                    <propertyInstance
+                      Id="cacbd050-0afc-41b5-a18e-10d8c7b169d2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7bc24955-de0a-4793-9fc6-12cb3af50401"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e883eaa6-b976-4dbd-b6bc-9243ebc4333f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="bce78345-0684-4cff-b92e-300189495d4c"
+                      LastKnownName="IOwinContext"
+                      LastKnownLocation="Package1_1555.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ec7312b8-2919-41f6-93f4-b92a337fa1b3"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="123a29f5-f38e-4ce1-a489-8909e1c690a3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenReceivedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Doptions"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="12d38a29-31b6-4895-9444-fd01562c7953"
+                      LastKnownName="TOptions"
+                      LastKnownLocation="Package32_1121.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7d06d532-328b-4b35-a17f-70e96d707e24"
+        name="SecurityTokenValidatedNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1bafd21c-8d0d-4f60-bb54-9b5a69fc956d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d12455ff-90dd-482a-a3a1-728b95439f2c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8bd145d-5d40-4331-98d6-1795cda73c13">
+                <propertyInstance
+                  Id="dc2b1dbd-6d77-4ba6-8230-309116926bd4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5bd83c26-e715-47c5-8bbb-e90e6203455e">
+                <propertyInstance
+                  Id="5ed62065-c478-4633-bc07-085fb90c16f9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="298fc9aa-be50-4d60-83dc-21c4ddd0caf9">
+                <propertyInstance
+                  Id="fb0c646c-fb71-48f0-af2e-3fa5f1f37941"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd9ac34b-27e5-4555-aa37-7ea50b4049d2">
+                <propertyInstance
+                  Id="ffcde904-f533-445d-b53e-728d2f0cf640"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="694a9934-8cf8-44b7-bd3c-c7924de551cc">
+                <propertyInstance
+                  Id="44be6bad-6942-49f1-9d45-9dbf74b59e60"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="93318b67-02df-4fdb-98f6-ceb9a35c9d62"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fe5253bb-cddc-4eb1-8ef6-0ff1b060e382"
+              LastKnownName="BaseNotification&lt;TOptions‎&gt;"
+              LastKnownLocation="Package32_1121.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="71ddcb81-88c6-46b4-b506-da694e2ad5ef"
+            isDerived="false"
+            sourceEndRoleName="SecurityTokenValidatedNotification"
+            targetEndRoleName="AuthenticationTicket"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="a7fff545-9bb9-44a7-8fba-0ceb6a902560"
+              LastKnownName="AuthenticationTicket"
+              LastKnownLocation="Package2_1555.uml" />
+            <description>Property AuthenticationTicket references type AuthenticationTicket.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3ea81f1a-41b5-4c70-a78d-4374a8033f16"
+                  name="SecurityTokenValidatedNotification"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a9170723-6287-4b7b-9346-27ab4e267db0"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5a3c49f3-ac07-4af7-ad57-5b35945940c0"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="81d6f66d-e01a-4e33-962f-2d0fb3b063d2"
+                  name="AuthenticationTicket"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4c2b788f-c0ea-4d63-b97f-51a0dda4d915"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b0db182a-c751-47b3-80e9-fad19a1961d9"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="4b28ef75-06aa-432c-a8a1-41e901ad4c7a"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="609938e3-a150-4606-b208-1265a5950a6c">
+                <referencesInternal>
+                  <reference
+                    Id="1e3c6fb3-60a6-407c-b98f-fd38f24a3f6e"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="01ec560c-44a7-4725-9e5f-8a7bf8d2e349"
+                    name="TMessage"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+              <classifierTemplateParameter
+                Id="68f3fa3e-e8f9-4aad-8c7c-370e498eb774">
+                <referencesInternal>
+                  <reference
+                    Id="8f92dda3-66d3-4f4c-8950-4877ad186fba"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="6d4142eb-e233-438d-bfa9-80c83422496c"
+                    name="TOptions"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="873e898b-e507-40b0-b326-d00255c84e8a"
+            name="AuthenticationTicket"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="579fd273-dbca-450c-b992-910b0530acce"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) Member%3DAuthenticationTicket"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b9051c26-7667-4910-ab87-47457b7e462f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9df5f59f-2af5-493c-a7cc-40c536f5d74e">
+                    <propertyInstance
+                      Id="7f552130-b2ca-4182-8406-d0e87a51cc0e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c83232e2-45f8-4f96-9cf7-1c1f902a4078">
+                    <propertyInstance
+                      Id="adc4a5e2-ad70-414a-bc59-8e352b8670c2"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f9c6527-d1f9-46cf-ab6b-44910805f579">
+                    <propertyInstance
+                      Id="52bb44fd-2f0e-45ad-ac8e-f7129a5a27cd"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d2b59d3-8962-404d-b340-03f32b9d527a">
+                    <propertyInstance
+                      Id="adda95a5-f568-4ed2-80bd-8e386e337f74"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="593509f6-3f77-427b-bba6-cf53e08f0ac9">
+                    <propertyInstance
+                      Id="357b99b2-7f4d-4cb5-a2e4-3e3f14b2296c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73b75e50-6552-49d6-9bc9-5076ae6430de">
+                    <propertyInstance
+                      Id="310e7204-8061-4b59-9ed2-c4bda875d3f0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd5fe754-e3f1-4b16-b224-d7b9f4540046">
+                    <propertyInstance
+                      Id="75514a05-e8e9-4b6b-abb6-5ccf95602d79"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a7fff545-9bb9-44a7-8fba-0ceb6a902560"
+                LastKnownName="AuthenticationTicket"
+                LastKnownLocation="Package2_1555.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bfbe21bc-f72e-41a6-b82f-4e0a01639abd"
+            name="ProtocolMessage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d3caadf7-9623-4af8-ad5a-bba99d283fdb"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) Member%3DProtocolMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="71d7d4e0-f674-4b9e-85f6-decd8aeb4621"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d174583-ffbd-4590-a933-49bff558b4b3">
+                    <propertyInstance
+                      Id="4e7756bf-72a9-4e0d-b8d4-187007c10199"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1acdfce-218d-4083-8946-655c288261ea">
+                    <propertyInstance
+                      Id="abf975ff-3636-46d4-9e00-cae293c5af15"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="611c1214-1754-4feb-8458-c998a13c1b47">
+                    <propertyInstance
+                      Id="33cfc322-30dd-48de-bc08-4dbd51e3aba8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecada84a-3ec3-4543-81c6-c2b0a48df2ba">
+                    <propertyInstance
+                      Id="665c8433-2f13-4284-9844-a37023defce3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fbb04d3-dfad-43c3-90fd-cc42adee9b27">
+                    <propertyInstance
+                      Id="6a8b1516-53ff-4735-83db-4e5e216359c6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53097dad-dc3e-4ad0-b072-666cc252dca9">
+                    <propertyInstance
+                      Id="eb35fa36-8171-4d61-ab3a-2657084dbb06"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="753b5e60-f3c0-4f6a-b233-60e5c0ac6757">
+                    <propertyInstance
+                      Id="d68d45da-0a49-462f-8e4f-7b0a8d5c7944"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="01ec560c-44a7-4725-9e5f-8a7bf8d2e349"
+                LastKnownName="TMessage"
+                LastKnownLocation="Package32_1121.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="69b50de5-fb88-46b0-b97b-c6d16cde3518"
+            name="SecurityTokenValidatedNotification"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dea538b1-6f08-45ad-a432-afc606af7175"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="16a40eee-b3eb-42c8-844e-fb38d18d6e8c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c10ac136-a82c-4653-9814-087d636e5fba">
+                    <propertyInstance
+                      Id="2280745a-0620-493b-9a17-873dafe21fa2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a79be1cd-83d4-492b-93b0-3dcfd80b1636">
+                    <propertyInstance
+                      Id="9c1a9cec-3710-4ffc-8b0c-0199b7b64214"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="181f8424-6f5d-4292-9965-cb436e7788b2">
+                    <propertyInstance
+                      Id="6357e13b-3c75-41cf-84dc-6349db2fd54f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64da604a-88da-4f21-804a-618b1dd540c9">
+                    <propertyInstance
+                      Id="2b8404f7-53f1-414a-a923-a0973f0d62dc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae2707ba-faf9-4875-a0f4-9dd509938e70">
+                    <propertyInstance
+                      Id="28ca3727-cfba-45e3-adb5-88dc3c367a5e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79fa8086-47e1-40f6-88b0-dcd0d572a920">
+                    <propertyInstance
+                      Id="3b583883-87ce-45d2-bec5-87d35c50f948"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2b14cd56-a031-4d3d-a9e6-d4ee982c7a58"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f6def3ad-b1f6-45d5-8462-4d766b9691e7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="bce78345-0684-4cff-b92e-300189495d4c"
+                      LastKnownName="IOwinContext"
+                      LastKnownLocation="Package1_1555.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6934bc52-c7b3-4566-8f2e-1d9d00a0201f"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="26598ce9-730e-4043-b09e-bf9bbdc0d4e4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DSecurityTokenValidatedNotification GenericParameterCount%3D2) ParameterIdentifier%3D1)]) ParameterIdentifier%3Doptions"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6d4142eb-e233-438d-bfa9-80c83422496c"
+                      LastKnownName="TOptions"
+                      LastKnownLocation="Package32_1121.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8a8c664e-c397-4b90-9664-060291198e5a"
+        name="BaseNotification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6a7bda84-70e8-4a02-9dc4-be6ef80dead1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.Notifications Type%3D(Name%3DBaseNotification GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <generalsInternal>
+          <generalization
+            Id="fc322e24-e31c-4502-abca-04afa7bbab28"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f6b8438c-6a40-45c8-8c99-38c8a1667353"
+              LastKnownName="BaseContext"
+              LastKnownLocation="Package_1121.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

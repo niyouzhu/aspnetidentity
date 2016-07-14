@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7b58b08b-6244-4cef-b016-b8e759be300a"
+  name="Runtime"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5d877bd6-f12e-4cde-9834-1c5a0da9675d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Runtime"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="88034eba-249c-4487-9ade-b216bd0d103f"
+        LastKnownName="Serialization"
+        LastKnownLocation="Package7_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1c3b223c-033e-4854-bc68-62e609ae96cf"
+        LastKnownName="InteropServices"
+        LastKnownLocation="Package42_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="767a3817-90b2-4d80-96a1-3bb248b9ea32"
+        LastKnownName="ExceptionServices"
+        LastKnownLocation="Package52_1121.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

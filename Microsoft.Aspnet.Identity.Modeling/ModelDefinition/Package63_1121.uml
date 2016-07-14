@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="29198cfd-6e33-4c8f-95d7-2b9a7cdc44e4"
+  name="Compiler"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f645ad7a-ca39-47ad-8fe5-4ba3a45b4667"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.CodeDom.Compiler"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="607a7649-e36f-4a47-856a-4f2c1294e3ff"
+        name="CompilerResults"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="98e76296-b180-4643-8ab9-eafc75f4de69"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.dll&quot; Namespace%3DSystem.CodeDom.Compiler Type%3DCompilerResults"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="50b3fbf9-457d-449a-882a-ae9f8e643949"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b8d04c6c-55f5-49c7-85bc-da33236155d1">
+                <propertyInstance
+                  Id="721b69ee-7100-4f48-984c-6d22e5c4dbd2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d8e6db24-9416-48cb-8dfd-721d3d3eb325">
+                <propertyInstance
+                  Id="d465f572-77ae-41b6-84b3-b9d149d370bb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c0f264a-1670-4501-9436-2e865e621ddc">
+                <propertyInstance
+                  Id="3daebe2a-782d-4fa8-ae6d-36057a4f1e6f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8526e38c-a24e-4d07-98ae-ae9b820bea79">
+                <propertyInstance
+                  Id="acd88197-4f7a-4de9-b584-93e62f3c0d95"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d0602815-e515-4715-b976-1438eb9008d1">
+                <propertyInstance
+                  Id="69131b07-5963-4396-a14a-d531948d3c0b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6e514c99-248c-4339-8b8a-b355186f20f3"
+        name="CompilerError"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f4d0a461-2622-455d-a3dc-592870bc9f6f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.dll&quot; Namespace%3DSystem.CodeDom.Compiler Type%3DCompilerError"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="eb178779-ddd0-475b-a562-9b23a826df51"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9164eb9f-524c-48a0-a8e3-cae41911fef2">
+                <propertyInstance
+                  Id="d059cff2-6248-499b-b78e-f591dfb794a7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d01ae32c-4711-4fc1-a3fd-b3196b848f8e">
+                <propertyInstance
+                  Id="e1151cd4-d16d-4b70-b741-1d125e2a36e1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c17673c9-bc07-4390-ae9d-3013fa2d4909">
+                <propertyInstance
+                  Id="4ffe77de-3d93-459b-9686-0998084e04ca"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e6206f8-ffa4-474c-9b84-9292904bf9b6">
+                <propertyInstance
+                  Id="e696975f-0306-4a3c-bb61-01643fc2abdd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ac5718e0-c304-4b6b-af6a-ee4e06bcb9ce">
+                <propertyInstance
+                  Id="d9b8f2ec-a64f-4a40-bf18-d45884af5212"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

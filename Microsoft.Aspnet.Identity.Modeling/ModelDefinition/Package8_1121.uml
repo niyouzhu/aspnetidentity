@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="2fbbf1de-9b2c-44f4-a362-639ad56d45a1"
+  name="Twitter"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="07936743-18fe-49bc-a992-fa1d4f2b8484"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Security.Twitter"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="6d5e5754-2c53-4b4d-9d42-cce05d31bcaa"
+        name="ITwitterAuthenticationProvider"
+        isAbstract="true"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="047daacc-1540-4bf5-9b8b-ac7c9a2ec979"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DITwitterAuthenticationProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7d34dc61-1ce0-4e99-b4fd-57472e021330"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5a3d607-126b-4e17-b5f9-a8d64de31aae">
+                <propertyInstance
+                  Id="2041430a-1d21-4e9e-8cbe-176cb5ba0688"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00281699-7d0e-40d2-a617-0f921e582c96">
+                <propertyInstance
+                  Id="14489f23-8ed6-4f23-8767-d02f4a0edaee"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7160d4c-aaf9-4c23-ac0b-165301608017">
+                <propertyInstance
+                  Id="62dab145-3eb4-4144-9bc2-af58b6e7ecca"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d14832c8-2cd8-403b-bb8a-931211282146">
+                <propertyInstance
+                  Id="5cd1341f-d1bc-43c9-85c1-4d23cbd760aa"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="94997657-3d72-4252-b035-1080e32865f3"
+        name="TwitterApplyRedirectContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="eeb40cf6-972d-415a-be9a-9795ce55ae85"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DTwitterApplyRedirectContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="46e1d903-2865-4352-a740-0937017186c7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="964bc4fa-ab91-4546-bd6c-066573902769">
+                <propertyInstance
+                  Id="d44cb9a8-7fe8-4d63-aa85-93b5245cacda"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="84816465-59ac-444d-ba7a-23e667585374">
+                <propertyInstance
+                  Id="a2ded814-288c-48af-a87c-e134ad6c1f8d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88a6510b-7098-48d3-96f0-c40c6b33c5b3">
+                <propertyInstance
+                  Id="f52e088d-32df-4143-bc17-955493c6440c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0b882503-e82e-475b-8dfc-7797bbd49e11">
+                <propertyInstance
+                  Id="dd2aa350-fe14-4e17-b278-bd2690aad900"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="559c45a9-e117-4a4c-aaa6-c2e557116ee0">
+                <propertyInstance
+                  Id="8534ba73-addc-4149-a258-c011c8f2b05d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8a60e7d4-409c-4d89-b7cc-6f79caaf0660"
+        name="TwitterAuthenticatedContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="327ccfbb-41db-49db-ae20-7143d7718a3e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DTwitterAuthenticatedContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6fc1214b-bd2e-4628-bfd0-abbedf0f4332"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96d431ca-3488-4b32-94f5-76b868096967">
+                <propertyInstance
+                  Id="9e2020fc-63da-4e7c-bb97-6dd78518a556"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3473227-1b8c-4f99-8674-1f5fccd3f8af">
+                <propertyInstance
+                  Id="4b5dffc3-1ae0-4b16-8423-a97e0698b774"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4381d16b-1f01-4519-9900-3d270ae1cad7">
+                <propertyInstance
+                  Id="2f14fc20-5788-4faa-944b-1df1a6405d9f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3753f433-0f78-4d46-88c2-497cc819c71b">
+                <propertyInstance
+                  Id="c1c2dc93-e60f-433e-b81e-61357d406143"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de70b97f-4165-4c5d-a3d0-c69228afafeb">
+                <propertyInstance
+                  Id="01b694e8-fd60-4b04-a8d9-dcf58004205d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="110fb007-3a8d-478f-a2ef-5bd6176eaf6c"
+        name="TwitterReturnEndpointContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="91861b6b-edeb-4d1f-8446-5a649b344f5d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DTwitterReturnEndpointContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1d72be9c-a4ff-479c-8de8-48070f5f1c7a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e1a9b54f-5488-404b-85f8-c19b0949ab12">
+                <propertyInstance
+                  Id="ea5d844c-7e96-40f9-ae28-89aa00dfbf2b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c31bbb4-5e20-4471-9f78-866136500c42">
+                <propertyInstance
+                  Id="b6118b4d-703c-4377-9a82-976cb49fea74"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e0376f5e-7852-4582-b64d-1da1d627206e">
+                <propertyInstance
+                  Id="fef087d7-1baa-4992-a7ac-cd404a4f161a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f11208f2-d48d-4bdb-962b-b93911ae7971">
+                <propertyInstance
+                  Id="70286c25-43ff-43f8-aa8f-940198d8018f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7421ccaf-ae96-446b-964b-8662b77014fc">
+                <propertyInstance
+                  Id="cb02ce73-3abd-4039-aba0-e1b05e139afb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="662a956e-347a-4851-978b-a54ffbf65279"
+        name="TwitterAuthenticationOptions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f1b3b885-3f70-4003-86b0-43acd3931cc4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.Twitter.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DTwitterAuthenticationOptions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b67578b0-092a-4e36-a111-914354f7d726"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d6a58d34-36ff-4599-9f9f-7130a7c55eac">
+                <propertyInstance
+                  Id="f30a2b3c-e8e0-4cbd-9ce5-8b2dd92d6d90"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be2f1a90-8374-4f1d-a0e5-f5c3bc42a52c">
+                <propertyInstance
+                  Id="d3213df2-bd8d-49bb-9814-6ffbbab30dbe"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ec52578-1346-4a32-8d4e-65da0411f71a">
+                <propertyInstance
+                  Id="6831e3e9-6ca3-4b0c-9d8b-015db3eb22e3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58a6972d-e518-4340-99f1-5406025a3e5a">
+                <propertyInstance
+                  Id="9c27518e-0255-48ed-b65a-849104be325d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ef660aa-4b49-4e13-94cf-d7b07e0f0c86">
+                <propertyInstance
+                  Id="60c57b3d-6699-4f0e-a3d5-1e16a1d492a5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="6d647175-c7e6-49b0-a5b5-fc54c368054d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f1885520-c914-41bc-9daa-2990bf48278f"
+              LastKnownName="AuthenticationOptions"
+              LastKnownLocation="Package2_1555.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e900959b-ab16-4dff-b28f-a7b56fbad5ee"
+        name="TwitterAuthenticationMiddleware"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="84a7dd9a-5f14-43bf-a42f-f4d007260e68"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DTwitterAuthenticationMiddleware"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="80cae5cb-eb3a-42ac-885e-9d35ced47dd6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5700faf-ea20-4b26-9958-96d6fc783b49">
+                <propertyInstance
+                  Id="334c87a0-0523-4b3f-a312-780c57ab1211"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4fc2093-a307-437f-882f-a208fbcd5e44">
+                <propertyInstance
+                  Id="eac5f0f9-b025-40d0-968e-2659281a3a67"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7de7b018-12e5-427f-bdae-e5f6b3fe5b2f">
+                <propertyInstance
+                  Id="c89b899e-1c3d-4816-9f9a-fe68e0785286"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16fd4a6f-8a5b-4b7c-81fb-ed9068dc01b5">
+                <propertyInstance
+                  Id="a282079f-db0f-465b-b62c-ead3613b22af"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9cf02ca8-5dcb-48e0-a233-a6d61e7e8dcd">
+                <propertyInstance
+                  Id="78a7fa68-b88f-4592-aa47-5fc489ccc70b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fe548664-db46-4295-bad5-f595b0cddf5f"
+        LastKnownName="Messages"
+        LastKnownLocation="Package10_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="24d4ede6-be65-427b-a2a8-06ee15146062"
+        name="TwitterAuthenticationProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="257e261b-c0ba-4fa1-a0a7-e91f8d16ad54"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DTwitterAuthenticationProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ce546931-a81e-4e48-9828-8d957e59eb99"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ab41304-2892-4a5a-b207-2f0beb958b0c">
+                <propertyInstance
+                  Id="4ba0bad2-1732-4bd9-94e8-b126aea81768"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28dc45db-3dcf-481c-8d3e-e89fc2b5ad23">
+                <propertyInstance
+                  Id="c76a125a-7349-45cb-b92d-ec38d9f6f25f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e8cf1a18-7466-43e4-915c-c12b40b57a3e">
+                <propertyInstance
+                  Id="ea20134c-8f75-462b-aa0c-df276dc9df42"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="012eac75-594c-4ef1-bff1-2db1eae6ccbd">
+                <propertyInstance
+                  Id="540ff3c2-2745-4c96-9272-eee550d76c43"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3fa12da-4bf7-474e-b552-b894a9b995ac">
+                <propertyInstance
+                  Id="fe3f8380-b2c7-4a59-82a8-e00a44a85f05"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c851bd27-a17c-4f38-b61b-0ea888d20c20"
+        name="Constants"
+        visibility="Package"
+        isAbstract="true"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="110e4c2a-fddd-45ef-a342-1b02e467a896"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DConstants"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8560cdae-7827-4892-9981-eea79ebba359"
+        name="Resources"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0d329016-decb-4735-9a83-bdd822e71964"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DResources"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="852ed253-a47d-4d62-b659-8b913c5c3293"
+        name="&lt;InvokeAsync&gt;d__0"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a3a245ea-ab2d-49c5-ad57-5f815e8ea421"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3D(Name%3D&lt;InvokeAsync&gt;d__0 ParentType%3DTwitterAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e17b5863-4e17-4db8-8d59-588e97d3488c"
+        name="&lt;ApplyResponseChallengeAsync&gt;d__10"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="401c5dc8-f1d2-4e29-9ffe-a590ca73bffc"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3D(Name%3D&lt;ApplyResponseChallengeAsync&gt;d__10 ParentType%3DTwitterAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a006bedf-aa91-423d-8c57-b40c25e51a64"
+        name="&lt;AuthenticateCoreAsync&gt;d__3"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ab370ceb-5c96-438d-99d6-961515126ba2"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3D(Name%3D&lt;AuthenticateCoreAsync&gt;d__3 ParentType%3DTwitterAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="90af0723-94e6-41fb-a02e-b53f6fdd6bd8"
+        name="&lt;InvokeReturnPathAsync&gt;d__19"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e981e243-af19-46d6-821c-9f20d9990287"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3D(Name%3D&lt;InvokeReturnPathAsync&gt;d__19 ParentType%3DTwitterAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7066d8d7-5c09-49ba-855a-18d6ca76aa7d"
+        name="&lt;ObtainAccessTokenAsync&gt;d__33"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a2414979-c052-423e-ae0c-2af8b81965cd"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3D(Name%3D&lt;ObtainAccessTokenAsync&gt;d__33 ParentType%3DTwitterAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3117eff9-30cf-4be3-9a64-bf28421fb46c"
+        name="&lt;ObtainRequestTokenAsync&gt;d__21"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3ab8f5ff-d8fc-4cf7-b749-0c9bae68b3f2"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3D(Name%3D&lt;ObtainRequestTokenAsync&gt;d__21 ParentType%3DTwitterAuthenticationHandler)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="73307bfc-3f4c-4099-8fef-95787927a940"
+        name="TwitterAuthenticationHandler"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="29596fb8-ac95-4cd9-9b0e-d0b14a6899b1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.Twitter.dll Namespace%3DMicrosoft.Owin.Security.Twitter Type%3DTwitterAuthenticationHandler"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

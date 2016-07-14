@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c1355382-0b21-4a67-867d-9f4905a9070f"
+  name="ExtendedProtection"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9c366197-60bb-4b1f-af05-f42713fbd926"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Security.Authentication.ExtendedProtection"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="402be4c4-f903-4976-acd3-0dfdc0819e48"
+        name="ChannelBinding"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2994d205-60ed-4b83-81b7-faeb80d937c2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.dll&quot; Namespace%3DSystem.Security.Authentication.ExtendedProtection Type%3DChannelBinding"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2bc57417-1675-4bb4-834b-360f9ffc2d31"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11b1d4cb-b9bd-4a0e-a00e-3f553006df06">
+                <propertyInstance
+                  Id="840847e0-d27a-4059-8bf7-4473d15c45e6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61a5efc3-9673-4695-883c-4f4602d76013">
+                <propertyInstance
+                  Id="174aefa2-f6c7-4f17-9e19-59045b70b3db"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cff9d253-b9c9-4645-bae8-c1614b163df2">
+                <propertyInstance
+                  Id="44d734db-913b-4a97-a518-f6099a790971"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="637cbffa-5846-4716-a66f-079e96d9e44c">
+                <propertyInstance
+                  Id="e45757ae-fe20-4f57-ae24-638c03d655fe"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37fccebf-b6a4-4342-80a2-d6e656735fd6">
+                <propertyInstance
+                  Id="b8b86b1e-649b-45dd-9e7e-e1f199b346f4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="cbc623a9-2efd-481c-9c8e-f9a7997f5e55"
+            isSubstitutable="false">
+            <classMoniker
+              Id="1e328232-b143-4c23-a022-77280edb5720"
+              LastKnownName="SafeHandleZeroOrMinusOneIsInvalid"
+              LastKnownLocation="Package83_1121.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

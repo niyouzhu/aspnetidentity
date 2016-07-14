@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="dd0d8b74-d123-4bca-a616-8e77f516a419"
+  name="Permissions"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="54f60234-2091-428f-9cbb-3d7829bbb504"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Security.Permissions"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="5a5e9c86-6fbb-4fbe-9463-39c657cd0f32"
+        name="PermissionState"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="76a0b609-2ccb-487c-8590-0d7cc8810e78"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Security.Permissions Type%3DPermissionState"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3cc8c627-4da9-4628-a2e3-30919a5cba4d"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ef888f33-118f-4117-ae96-948589e100d3">
+                <propertyInstance
+                  Id="f3ee0c53-71c9-44ee-844f-4b9fecf09c35"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a772aee-f18b-4b94-bf0a-04bc30bf3804">
+                <propertyInstance
+                  Id="65ae5815-2c1b-4505-847e-6d2c06e6ee9c"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3add9a9a-e7a8-410b-bcf6-3fa203b268f2">
+                <propertyInstance
+                  Id="dfeeab90-e5cc-43f9-a7d0-3558fc74cfe6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="a6dc5e0c-a48c-4741-9598-765686ac99eb"
+        name="IUnrestrictedPermission"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="7bc73cad-9d34-4396-89fe-1e4dd91ccd79"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Security.Permissions Type%3DIUnrestrictedPermission"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c38d0d36-bbea-4f92-8e8f-ebb17dc1f575"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36c3816f-f2d6-493d-a9fc-a857222fa544">
+                <propertyInstance
+                  Id="8588ffaf-0dac-4273-a51e-2c23f70f3fa7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5441b620-48f5-4dc0-b9d5-4cdac11fb3aa">
+                <propertyInstance
+                  Id="60f2eaee-b6c3-4f58-833e-4308ba5bacbc"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9151112f-2f26-47e2-b2c4-cb91db733926">
+                <propertyInstance
+                  Id="ac1a7581-5f82-4903-9521-103d92f8a9c3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b3579496-8b40-4d5c-8242-554fb203f211">
+                <propertyInstance
+                  Id="1f37fa9e-6fc4-4af5-8cd6-9a7df7ad36ed"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="09cfc01b-ec52-4255-ab73-4ab567a280dd"
+        name="SecurityAction"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="5a6ac152-5212-4a26-b605-3d1e6d70908c"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Security.Permissions Type%3DSecurityAction"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="eac2cd01-6611-44c9-b387-7bc6810635a9"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="260c583c-313a-4682-a563-c56978230757">
+                <propertyInstance
+                  Id="bf25b87a-5471-4ac0-b78f-6c8f363217d5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8bcebfa8-2ce9-456b-9d59-71ce77e1198e">
+                <propertyInstance
+                  Id="63cfd4e4-5644-41ad-bc66-64c871a4502a"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22dcc4d1-1456-4dce-8d45-87ad1c194c35">
+                <propertyInstance
+                  Id="0ab417bc-a247-4004-8e38-8250a895baf4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7fdb39cb-8e87-488a-919b-4528250b9016"
+        name="CodeAccessSecurityAttribute"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="751cb559-2247-46a0-9b47-fe73caf2c569"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Security.Permissions Type%3DCodeAccessSecurityAttribute"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="26484c29-0af8-45c3-9f5d-d06ef35ce9b4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="07da430d-07c1-4a56-a6a4-889be49a7268">
+                <propertyInstance
+                  Id="380abff8-cdbd-4aee-bfd5-c482e85963bd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="66917227-c2c7-4d51-825d-e17de524d102">
+                <propertyInstance
+                  Id="be315f56-6933-4177-99df-1599de99cda2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58af0e0e-ae2f-4a0e-afc6-644651cc6ac4">
+                <propertyInstance
+                  Id="cd6f5cee-b1e0-4072-b520-0c9819c85802"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b1adf9b4-7aa7-42c5-8e18-060eed171793">
+                <propertyInstance
+                  Id="e7c56ecb-128b-47b9-a823-63686a885cc6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="59b96dbc-3cf8-4b00-930b-d8406fbd492e">
+                <propertyInstance
+                  Id="ed72b897-bda8-4402-b5b3-6f2a1704f23e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

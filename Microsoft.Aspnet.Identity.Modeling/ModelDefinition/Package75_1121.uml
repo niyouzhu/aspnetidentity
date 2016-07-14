@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4afa6296-ad82-4795-be17-730bddb0e6f5"
+  name="WebControls"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="865e8e6f-99de-4424-9b29-052ad697841e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Web.UI.WebControls"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5adc43ec-0e8f-4a3f-8673-2aa87f5a7509"
+        name="SiteMapDataSourceView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b1b46a7c-b074-40d5-89d2-ec48c751bcc3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.UI.WebControls Type%3DSiteMapDataSourceView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0e12ba81-79c9-485c-962a-3c1d44fc3c4b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49ff896c-770b-472a-8dce-91ea1ce47c9e">
+                <propertyInstance
+                  Id="570c89b7-c78f-40f6-b517-f91ed6533f30"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="40012acf-87fa-4c39-a392-20cee8157fd0">
+                <propertyInstance
+                  Id="9605c902-83a1-4c3b-bd61-e29fd6b5b57c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2de485cf-6fdd-47dd-80f3-6c20ce936eb6">
+                <propertyInstance
+                  Id="63e8a44f-a7b1-441a-891b-be940b7f1837"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b70a5fa0-8f73-4979-8e0c-e5047f5edc89">
+                <propertyInstance
+                  Id="d6835c7b-3b86-4897-9ab2-087e853315a2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d918fb0a-edda-4a9e-b21c-68eb2b34b52f">
+                <propertyInstance
+                  Id="d7a4c2b2-80e4-4e22-b684-8bbfba7adb94"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="60cee0af-7ffc-4a33-8cab-360daefd0636"
+        name="SiteMapDataSource"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c46ee2a6-1946-4c86-97b3-64a261f805b4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.UI.WebControls Type%3DSiteMapDataSource"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="933e30f6-a827-417d-846d-86ed38f3dad0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7599f82-04ac-4d13-9113-63dd53b71fe4">
+                <propertyInstance
+                  Id="52a57490-7c62-4668-9004-c40b6bd7da9d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba1330ff-1427-4cff-8981-4d8ec5eb7877">
+                <propertyInstance
+                  Id="b343607a-7cb0-479e-8209-d008bb2fba2a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b345033a-3410-456b-a978-b2a945acdad2">
+                <propertyInstance
+                  Id="a56b742c-6099-4941-8939-dbbc68930aea"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1704ad01-0a03-4868-936e-e4fff479677c">
+                <propertyInstance
+                  Id="252c2207-13d3-4c75-8de7-0fb4745ac60c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b8d2fde-7568-41ef-b4fa-462cac3fd283">
+                <propertyInstance
+                  Id="e90deb78-fada-4669-a9c2-6df11d6119f9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="496b8369-19ed-4ff1-b44e-12d318149c3a"
+        name="SiteMapHierarchicalDataSourceView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="27ffefd9-5c45-421c-8926-dfe966a9bf43"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.UI.WebControls Type%3DSiteMapHierarchicalDataSourceView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2cfa9d48-230e-4f31-bb8d-6580e3ab07e1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="608cc3ce-2045-4260-85dc-4e990d2c7935">
+                <propertyInstance
+                  Id="22b04d67-f5ae-46f3-a364-e73d9cdf575f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4c1df95-a135-4981-a46c-0c79625689aa">
+                <propertyInstance
+                  Id="81d04e0c-2eb2-4114-8b33-39e1b17e1629"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83eda0ca-839e-4c3f-9480-f6b17005ac32">
+                <propertyInstance
+                  Id="6abbd91c-0810-4912-83c5-cbbedc36af87"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9806c538-6a95-4544-8114-ba4bb06d0152">
+                <propertyInstance
+                  Id="4aa4007b-6870-416f-b970-34382180f2ba"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2106796e-20dc-4f2c-ad96-8ac75ea16dec">
+                <propertyInstance
+                  Id="1f6c18d3-86bb-4c4d-8c7f-7038ae686974"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

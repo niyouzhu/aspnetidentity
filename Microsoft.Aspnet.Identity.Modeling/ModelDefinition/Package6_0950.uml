@@ -1,0 +1,1250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6acebdc7-e031-4a12-be35-027c0ada3fab"
+  name="DataProtection"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5241f565-4bc7-4f46-9d33-3d95930595f9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Security.DataProtection"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="4f179ee3-96f6-437c-9b60-62a28301a936"
+        name="IDataProtector"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="44e4e6ee-8fc3-415c-81a3-b2fc629a569a"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtector"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7d5c4ec9-cca9-49f5-9a58-c87ad685a927"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e4b548df-894a-4068-afc8-e59d26886b74">
+                <propertyInstance
+                  Id="83c64ea2-c9d0-4396-b74c-1e250225fcf8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0dd7ed2f-bd43-4f3a-ab62-4dff6afa3351">
+                <propertyInstance
+                  Id="37fde318-05ec-4554-92dd-295b86959e19"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fb857612-1268-4db8-bbe4-de8354737817">
+                <propertyInstance
+                  Id="17893f4a-48cf-43b0-8f8b-0bdf4ccb56dd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc5549ac-0edc-4671-a98c-91035152dab6">
+                <propertyInstance
+                  Id="64dd4a35-631e-4b84-af41-e7e40bd505af"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="711fbdcf-5d22-470a-a52e-e520a260cbfd"
+            name="Protect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c3c86dbf-184e-4c2e-a35b-e87314ab5124"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtector Member%3D(Name%3DProtect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DByte ArrayRank%3D1 ParentType%3DByte))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a80dde8a-5a74-4983-98cf-1e2bef504cf1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="805737d1-c205-4300-9d6d-a9f0017b5e95">
+                    <propertyInstance
+                      Id="2e2d6344-b357-46cb-9698-73034e4559be"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f1620ad-a57b-4287-ba02-fe0e5085eee3">
+                    <propertyInstance
+                      Id="216beaee-6c46-4637-8757-e5c0c02c6115"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0b6737e-fc45-4dc6-bbb6-c9efcd7db470">
+                    <propertyInstance
+                      Id="4f16b5f3-4b9a-46d6-ab93-c3f725ea9cbd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83da063c-4ca4-4e6d-bd25-609d7a354ba3">
+                    <propertyInstance
+                      Id="61509c5c-1cb7-4dc2-82ae-2332967be3ed"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c7a3226-b591-4338-a4fa-ef416118a66f">
+                    <propertyInstance
+                      Id="9d60e4b5-9d9c-4d52-b30a-2a538ab4be15"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa5fa30d-fee1-45c8-bee2-0ec73c6d855f">
+                    <propertyInstance
+                      Id="c3b1a00e-053b-4ae3-8f95-dbef9fac091b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ae3ac9ef-0454-4841-a247-420b64889d44"
+                  direction="Return"
+                  isOrdered="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e50a341e-7338-4687-b567-97938d74809d"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="49196650-dc69-4db2-b4dd-db1191047a50"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7b8f88f1-1973-4048-a0f0-31f1dd8ad98e"
+                      LastKnownName="Byte"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="01bb0100-97ff-4c1d-8112-1beb15c3f50f"
+                  name="userData"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="e8e65ac6-7020-4a20-af5d-76d28a4f4643"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtector Member%3D(Name%3DProtect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DByte ArrayRank%3D1 ParentType%3DByte))]) ParameterIdentifier%3DuserData"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4534e0ad-6548-434f-9f54-919ad326ed2c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="286da46f-93cb-47f7-af89-5ad11a3e830b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7b8f88f1-1973-4048-a0f0-31f1dd8ad98e"
+                      LastKnownName="Byte"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="654142da-8c74-4b2a-81af-b122d83456e3"
+            name="Unprotect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d938ade5-740e-4acc-92e5-a20f5ac159ac"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtector Member%3D(Name%3DUnprotect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DByte ArrayRank%3D1 ParentType%3DByte))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c1b82d31-48cb-4369-b014-776f408c095d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80c29560-4b79-4186-8f55-b685afa7eefd">
+                    <propertyInstance
+                      Id="951ba46e-f0c2-4fb6-9921-a994176da3a0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77746de7-b202-4876-ae03-d5902ced4b41">
+                    <propertyInstance
+                      Id="604b10da-98be-48cc-8b96-a1c6ecf444d6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3744ea47-29ba-4aef-88ba-31401ee29f56">
+                    <propertyInstance
+                      Id="9c075e56-bb29-4bfe-a03d-60a31550bc8e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1431217-49c4-41d1-89f9-c8fd020d4823">
+                    <propertyInstance
+                      Id="d6445809-92a6-465d-a9d5-d4b7815b68c3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87314e10-af1a-420b-9fc9-83ce8494fa10">
+                    <propertyInstance
+                      Id="6c5958ca-5ded-4415-88a0-9e6a0c4cfc97"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0696eb43-3f98-4ddd-8401-edb05380a541">
+                    <propertyInstance
+                      Id="2417ad76-b055-4899-a94f-d30072dea452"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="979d6398-ede3-4ec6-a25e-54e31ec1828b"
+                  direction="Return"
+                  isOrdered="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="359de588-53f3-44f5-9a93-c1c375b2c019"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b883107b-af8d-4fcb-9f23-8124b8c7e963"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7b8f88f1-1973-4048-a0f0-31f1dd8ad98e"
+                      LastKnownName="Byte"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d8c5267a-c13c-4b41-87b9-908183bffebf"
+                  name="protectedData"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="901b82b6-398e-469e-9c0c-484bec9a4b6c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtector Member%3D(Name%3DUnprotect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DByte ArrayRank%3D1 ParentType%3DByte))]) ParameterIdentifier%3DprotectedData"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a7a181f1-f3c0-4de1-af34-fdd985dc3e0f"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2f37a9c1-4ffc-4c97-a804-3bbbf974e2b6"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7b8f88f1-1973-4048-a0f0-31f1dd8ad98e"
+                      LastKnownName="Byte"
+                      LastKnownLocation="Package3_1517.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="d49d2f5e-e4fe-4616-9d7c-72eed2563999"
+        name="IDataProtectionProvider"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="186114b1-3936-48f6-96eb-41e9dae4968b"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtectionProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="44d38bca-db66-46be-8721-b3057b528648"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1020c22-a81d-40fc-b8ba-d1efe4f764c4">
+                <propertyInstance
+                  Id="2c6d2a43-f83a-46b5-a45c-7e41d0230354"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a49f6ecc-6cfa-4fae-a26f-9dd09243fc2e">
+                <propertyInstance
+                  Id="7d22f0d6-b681-4d83-bc5c-81c2536feb49"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e35bd6cf-ca95-4ca5-b977-6ff1c07019bd">
+                <propertyInstance
+                  Id="fb94ad14-ff73-42f2-a4cd-30aa676e85d8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4ff50d25-f5ac-441a-afd7-7000cb01a7f9">
+                <propertyInstance
+                  Id="058b03e7-27db-4ebe-99a6-b42e96befff3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="117ce10a-0173-4079-a09d-97e72b6858cd"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fd3ad4c1-44cd-499b-a411-ce1906a03194"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtectionProvider Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d99b0f23-d2eb-4032-8c72-59d4db02b215"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07614f60-0cb9-4592-b92f-8245bb92abdd">
+                    <propertyInstance
+                      Id="adadecfe-7496-4820-9add-98ac7d4f258c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e470b3d2-0d16-4038-aae0-96583a74b05c">
+                    <propertyInstance
+                      Id="6528aa90-841a-45c8-84c3-00bdc19c2089"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5740ff17-c157-4e6b-8f8c-4809339813d9">
+                    <propertyInstance
+                      Id="4bbea477-eeea-4dd1-b581-1307378b439c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e8fcf31-f9ab-4930-ba38-4e6d96ffeeb0">
+                    <propertyInstance
+                      Id="742a447c-2068-4dc2-88d6-8cd61ad79aaa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2d2c893-15b8-490a-88fc-dcd726d60965">
+                    <propertyInstance
+                      Id="cc667f48-e46a-4f1b-8e3a-740b1a0bfab7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="375dfb95-ec85-45f7-a50b-0a77b0dae0c2">
+                    <propertyInstance
+                      Id="a04c15da-9cb6-44b0-ba7a-ac3df402bfdc"
+                      name="params"
+                      value="True" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5688a6c0-c02e-42d3-bcc4-414208d0a770"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="4f179ee3-96f6-437c-9b60-62a28301a936"
+                      LastKnownName="IDataProtector"
+                      LastKnownLocation="Package6_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4a551b9e-7ff8-4a37-8a60-43740e3a58f5"
+                  name="purposes"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="f95bef61-13bc-4e7a-b5ff-25a78c1cfd3e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtectionProvider Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dpurposes"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f2999eab-9fe2-4d46-9534-577aef56a1cc"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2f2eec06-5b81-4241-a701-5ab61f71a180"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Microsoft.Aspnet.Identity.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6fe435e3-e05e-4bf0-a0f3-692a512ab285"
+        name="AppBuilderExtensions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2fbd1e28-17cd-4037-9ede-9b9661f0e5af"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DAppBuilderExtensions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f17277dc-6892-408f-8c6e-003d57c7903c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9358157f-66bd-417d-9b8d-e7b5a53b29a2">
+                <propertyInstance
+                  Id="9fdc9ad3-a3f7-4e2a-9d38-f8af734e5168"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c43a3a5e-2f0d-4c7f-9617-084b6b1e603e">
+                <propertyInstance
+                  Id="ffec0822-ec4c-4712-9af0-f63d0e85647a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="642038f2-809d-4f7d-9b31-a4b0301eee62">
+                <propertyInstance
+                  Id="8c464404-5c5c-4644-a8b5-a3fc45d64337"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b3a3dd0-e3a1-4f11-a6a2-281f357805e9">
+                <propertyInstance
+                  Id="ea57b5ac-bd27-41ba-b18c-de8014017238"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a81e5255-c0d9-477e-a4f9-d00d1dabe882">
+                <propertyInstance
+                  Id="23e47968-c2ec-45be-93e7-4f7efb732f98"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2e450f28-7c22-4f68-a5fe-01b9b5929493"
+            name="CreateDataProtector"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9d46a7a2-1def-4f26-9336-5fc3b64a3cbf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DAppBuilderExtensions Member%3D(Name%3DCreateDataProtector OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d0023457-9cf4-401c-a1e0-2a7e675f3bb3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcc6bd50-648a-4918-acd8-7c0a0142366d">
+                    <propertyInstance
+                      Id="abfaaf88-d411-471e-85b7-29f8312d31e7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a88dda9-3cb3-4d3e-a5c8-d3408b388730">
+                    <propertyInstance
+                      Id="e4db14a2-47af-4dc6-83e1-946a201c1c26"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="779ad235-64ac-4c6b-9bb0-60e89d057cdb">
+                    <propertyInstance
+                      Id="7ffedcf8-617d-4d45-aebf-af3ed6bf9a66"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84f7b0fd-bdf5-474c-a0c9-14a3c0147c46">
+                    <propertyInstance
+                      Id="333af4d2-c2dd-4c23-aa2f-e6eba4f7cd88"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec191aa3-7dfc-4ceb-916b-4821676288f6">
+                    <propertyInstance
+                      Id="dbedb567-74f1-497a-8637-b34aed625267"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ec9cfbb-3684-4528-80e1-2e420b33a9f7">
+                    <propertyInstance
+                      Id="8fa1170f-636c-4483-bb9b-1cfa4bf818de"
+                      name="params"
+                      value="True" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="452c1a84-82b7-434c-a1f9-ee7f7766611d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="4f179ee3-96f6-437c-9b60-62a28301a936"
+                      LastKnownName="IDataProtector"
+                      LastKnownLocation="Package6_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="90fcb81d-0693-4600-a917-bde2cd14348c"
+                  name="app"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a5ede3ed-1029-4ec1-bf9a-3d1bb58fb5fe"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DAppBuilderExtensions Member%3D(Name%3DCreateDataProtector OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dapp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package4_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="32d593a5-3d59-473f-b30f-fd16c35921e5"
+                  name="purposes"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="01359388-88dd-41b1-8aee-fc9503125bb2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DAppBuilderExtensions Member%3D(Name%3DCreateDataProtector OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dpurposes"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7f92e021-7c92-4956-992c-1be764a8b4c5"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6d7fc54b-c5d9-495b-b29e-d5c994e2b61b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Microsoft.Aspnet.Identity.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4604ad29-2045-4970-ade9-1f9fd7928663"
+            name="GetDataProtectionProvider"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c6fd71c0-1766-428e-bd39-f61f2c9c7c16"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DAppBuilderExtensions Member%3D(Name%3DGetDataProtectionProvider OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4ddc9360-0f01-4cee-b4c2-2157a8c39ed6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75f9cab0-6f96-49ff-9ccd-6a52b4f2fdd1">
+                    <propertyInstance
+                      Id="33ed1a62-36c4-494e-a1a1-d4dff12732cc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fc3b2e1-0664-4e07-8b4c-7c95cf121d3f">
+                    <propertyInstance
+                      Id="cd5ede72-aedd-4888-83f4-82b673c8700f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e98780ec-8432-496a-a731-57ca8dd9dea7">
+                    <propertyInstance
+                      Id="35b7ead5-6eb0-4008-98b5-e6d94e6b6c4e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="044688de-b014-4562-a77a-8f0df11c5e36">
+                    <propertyInstance
+                      Id="0c77bf88-4a5d-4e99-8e03-e84f621efc8d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12c720fe-6eca-409e-9cbb-6ae333cc007f">
+                    <propertyInstance
+                      Id="1750923a-aec2-4a74-81c4-a7420706146e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d586afdc-0313-4909-8f87-2b0f9a237ade">
+                    <propertyInstance
+                      Id="f38a51e0-cba5-4a48-a224-7aaa571c21bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="df687d8f-ca6c-4acf-88a5-6702a3a0fff5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="d49d2f5e-e4fe-4616-9d7c-72eed2563999"
+                      LastKnownName="IDataProtectionProvider"
+                      LastKnownLocation="Package6_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ccf84ba6-50fd-42d9-9976-b76ab7e93e44"
+                  name="app"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="32d38ad5-0219-4e8f-a2bf-6c703037c461"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DAppBuilderExtensions Member%3D(Name%3DGetDataProtectionProvider OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)]) ParameterIdentifier%3Dapp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package4_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="bb4000f9-2c6a-4310-a37d-5ee2e6971bd5"
+            name="SetDataProtectionProvider"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="56d4cf71-07e6-4771-ad34-b4c846b532b4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DAppBuilderExtensions Member%3D(Name%3DSetDataProtectionProvider OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtectionProvider)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5badd1ed-5187-4d14-b575-a661100169e3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00af4f5c-828a-4796-980f-38e9c8456203">
+                    <propertyInstance
+                      Id="90231b53-575f-4d28-b55c-fefaeb290c39"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b1ee51d-69a4-4cc5-9ab0-1b53b8a3d35b">
+                    <propertyInstance
+                      Id="6667c0df-6cf6-4eb7-bee6-e750714efcf8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb18de14-c06d-487c-b4e2-1dfee3005c24">
+                    <propertyInstance
+                      Id="b48a861a-3426-48e1-91bc-de0086d2f55b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc82e34d-40f0-4baa-805a-0bbbcc27a723">
+                    <propertyInstance
+                      Id="0dd672fd-a3ae-457f-9636-af00a429494e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc620080-bca9-439c-8ec5-e63dc5d38646">
+                    <propertyInstance
+                      Id="6485abdb-359b-4f6e-a54b-37dc1b24201e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93e4c616-0db0-4d29-bf43-a6106094a9c1">
+                    <propertyInstance
+                      Id="61cbfe79-16a3-49cb-8584-aad49dbf19be"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b8d837b5-9c64-4b58-ab15-15277de8d6c5"
+                  name="app"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5ac3e38c-559a-4445-b7d9-9bd1a87fd13c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DAppBuilderExtensions Member%3D(Name%3DSetDataProtectionProvider OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtectionProvider)]) ParameterIdentifier%3Dapp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="402f6494-9eee-4f0d-a06d-df4a7a1d65ae"
+                      LastKnownName="IAppBuilder"
+                      LastKnownLocation="Package4_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8c7e7e7b-241e-4306-b6aa-bae248798d4a"
+                  name="dataProtectionProvider"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="77a33f27-1130-4695-b388-78f4e257369e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DAppBuilderExtensions Member%3D(Name%3DSetDataProtectionProvider OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FOwin.1.0%2Flib%2Fnet40%2FOwin.dll Namespace%3DOwin Type%3DIAppBuilder)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DIDataProtectionProvider)]) ParameterIdentifier%3DdataProtectionProvider"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="d49d2f5e-e4fe-4616-9d7c-72eed2563999"
+                      LastKnownName="IDataProtectionProvider"
+                      LastKnownLocation="Package6_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f1fde2b6-eb1c-4de0-ad97-364de9632465"
+        name="CallDataProtection"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="26a0122e-bcdb-4693-b510-aea9bc8b2eb7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3D(Name%3DCallDataProtection ParentType%3D(Name%3DCallDataProtectionProvider ParentType%3DAppBuilderExtensions))"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="35bcb98f-bb90-4286-8308-6403dbf57306"
+        name="CallDataProtectionProvider"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0fa3eb5a-5628-4f73-ae83-e37e48ddd0c4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3D(Name%3DCallDataProtectionProvider ParentType%3DAppBuilderExtensions)"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="63e954b1-9eb8-4626-953b-0da25eb66e8f"
+        name="DpapiDataProtectionProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="284228e3-1f0f-481a-b814-34dcd4857ba9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DDpapiDataProtectionProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="52a48d8b-3107-492d-b107-e2e60a063b07"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7d331b6-9a22-4b31-b849-c322a4267c5c">
+                <propertyInstance
+                  Id="d5441279-874d-4349-9e06-38791e9ebb29"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24de364e-5fc4-4b8c-8359-d2cfab678501">
+                <propertyInstance
+                  Id="2cb8b728-3606-4be1-ac96-100a2db250fa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5fdb0cbc-e9ff-4c2f-a97d-a7c84472d2d5">
+                <propertyInstance
+                  Id="5e8afedc-2c51-4682-a82b-66f3df12277a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4192a920-f6ae-41ba-8a05-707be09d1efe">
+                <propertyInstance
+                  Id="e4e4a673-195a-4646-aec6-15d9547b6722"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="60d5394a-f073-4354-8b32-540c7e0b5c06">
+                <propertyInstance
+                  Id="99fac1f3-b65b-4a9b-8b0a-225e2a735f68"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="c1723425-5cd7-4fa6-acc0-16c482a3c355">
+            <interfaceMoniker
+              Id="d49d2f5e-e4fe-4616-9d7c-72eed2563999"
+              LastKnownName="IDataProtectionProvider"
+              LastKnownLocation="Package6_0950.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="62a169a8-fb0c-40ce-b857-6d28006ece7b"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6b29c1d9-aa20-4c12-a119-a788121949c9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DDpapiDataProtectionProvider Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5a1c857f-9062-432e-bcae-9fdfc3040041"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d904b09-6306-4757-b5f4-10b90a93fa33">
+                    <propertyInstance
+                      Id="2514a4cc-0f00-4731-aa3d-d116cbb7fa78"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe163176-b8b7-40c2-b697-cb5c721cc88c">
+                    <propertyInstance
+                      Id="c5fe8e7a-510b-4d2a-baa2-de7c73dff165"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db7b5d08-78bf-4bd9-85c1-4cf23cd3bafd">
+                    <propertyInstance
+                      Id="1d626056-4001-4356-9277-6da974749fd9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64b6e738-f2d5-48fa-a266-2f6a816b66da">
+                    <propertyInstance
+                      Id="30a10445-e5b7-44e4-acf6-5c7ffbd996b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="803938b3-0a40-4ab4-9112-27ca1182423e">
+                    <propertyInstance
+                      Id="6da4781a-700e-476c-99da-19af90320569"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a441447b-f21b-4a0b-8c36-20fdd7e81d59">
+                    <propertyInstance
+                      Id="e2d4bfc6-66d7-4a17-91c2-2500d9ccac96"
+                      name="params"
+                      value="True" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cf5e279a-2354-48ad-a1b0-a007da346cce"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="4f179ee3-96f6-437c-9b60-62a28301a936"
+                      LastKnownName="IDataProtector"
+                      LastKnownLocation="Package6_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="92f9374c-bf4d-4b35-8e44-da3898120fcf"
+                  name="purposes"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="675f7460-9db3-44b3-84d4-3be5e1887a87"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DDpapiDataProtectionProvider Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dpurposes"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b4030733-fde7-4574-8eea-4025cb951c7f"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6dda7caf-6031-4117-b318-d93530caeff2"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Microsoft.Aspnet.Identity.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a0a3d6e5-fcfb-4780-8079-465c2e76dcc4"
+            name="DpapiDataProtectionProvider"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="64f0677a-6337-4944-a36c-44f5e2fb55e6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DDpapiDataProtectionProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="577e8b16-7ad4-45f3-9cc6-e638296c026f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8c3f350-3a4f-427e-b5d4-ec5014c6db3a">
+                    <propertyInstance
+                      Id="c512d955-c237-4365-a3a2-f242811a446e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23917d87-c295-4253-8bd3-2a5d0763fb60">
+                    <propertyInstance
+                      Id="0ea4179b-2d5b-42b5-be2a-e801b462cacf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d192d95c-72e3-4f01-badb-996c267cb379">
+                    <propertyInstance
+                      Id="44cd753c-a2d3-4878-80ab-578d67a3d78d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ce185de-26ba-4149-b8e7-4a2f7cb4a111">
+                    <propertyInstance
+                      Id="9822a03e-c6de-472e-a343-19ca378d0c51"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0a8d03f-9218-4386-921a-b01aca6a9c58">
+                    <propertyInstance
+                      Id="edef4cf1-5d10-4f7b-afcd-1af5dc4dbd8c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2afa8dc8-e8f2-4bde-ae86-d28c9d238ab5">
+                    <propertyInstance
+                      Id="e6222a93-47d5-45e6-8777-6e8e6b3644b2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4b95c066-aa0d-402b-80e0-54a1487432e7"
+                  name="appName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d0889dc5-5bb2-47e9-b95c-c47be47f299b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DDpapiDataProtectionProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DappName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Microsoft.Aspnet.Identity.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="07d5e4dd-ad4f-40b8-92ba-97a79925afe3"
+            name="DpapiDataProtectionProvider"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a8ccbb8b-71e9-4a7f-9707-4063e3782a66"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DDpapiDataProtectionProvider Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8d9b2b74-91fc-4ba4-8dc0-6af04cfae5c5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfdda8a6-0d81-4305-a6fa-50c2c7dfb51b">
+                    <propertyInstance
+                      Id="19e689bc-710c-437d-951c-09a0d9d86f1c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29f79a63-f5b5-4b19-a9ff-ce6ed17ccace">
+                    <propertyInstance
+                      Id="597013e4-171a-4ef8-8d63-c8677b6c3197"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c7ab213-07fb-473e-9abe-960e5ebf0408">
+                    <propertyInstance
+                      Id="4dd8f399-838b-4382-a43a-7a28365b8e61"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c10bdd3f-327e-483e-a3b3-d7e7d2c5b46b">
+                    <propertyInstance
+                      Id="511baa1d-cb8d-44aa-b52b-607d8aad6a3a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0315045-bb33-4c10-ac0e-3c78b4431b75">
+                    <propertyInstance
+                      Id="af79f3b2-3c7a-47a4-a708-739c6d7fc82b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a193631b-27d2-456f-af95-b37920938088">
+                    <propertyInstance
+                      Id="9f81d7bc-18ae-46be-8dec-f1e6e689e789"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0a5cc0be-f5bb-45d2-968c-fab3f8016e6e"
+        name="DpapiDataProtector"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0f9a6554-eeb5-4695-b1cf-179af76886de"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security.DataProtection Type%3DDpapiDataProtector"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

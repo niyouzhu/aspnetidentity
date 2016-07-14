@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3a2a0e5f-ed1b-4275-88bd-4ecbeb146764"
+  name="Routing‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="24dd4dea-c0e7-48f1-acc4-dd4c92e509aa"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Namespace%3DSystem.Web.Routing Type%3DSystem.Web.Routing.ParsedRoute"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="89d2aad5-0848-4568-b0a3-04d3bdc30812"
+        name="System.Web.Routing.PathSubsegment"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="740f4eae-17ff-4e59-8c11-175ad0e7d778"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Type%3DSystem.Web.Routing.PathSubsegment"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f75920ba-14b6-4078-abd3-dc24cb78a9fa"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c4cccb3-94a2-4a9d-8084-92e4ec86aa0e">
+                <propertyInstance
+                  Id="6eefe912-61f8-4a4a-835d-28cf0a6beebf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7f20d4df-3149-4758-acdd-9356f57e481b">
+                <propertyInstance
+                  Id="3ef17a3e-60c9-47c2-87ac-05d0f5aa48bc"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25ef378c-b310-432a-a251-91d52e8c2968">
+                <propertyInstance
+                  Id="0b6fc751-7788-455b-9dfc-a58732e5de51"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28be4c5b-7362-42cd-8fe1-ed897c951848">
+                <propertyInstance
+                  Id="b19691b7-d490-4edd-bf1d-d461dee31e0a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d7768a8-49ea-467d-8cd1-dddccad0a164">
+                <propertyInstance
+                  Id="d4e74516-0162-4f3f-8a22-56bee2054270"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b5884f0f-33d4-4378-a6fd-fa0dae4991f9"
+        name="System.Web.Routing.PathSegment"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="673b6742-0193-4fa1-9c8c-b51edfb51161"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Type%3DSystem.Web.Routing.PathSegment"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9fa792ab-cd83-4374-8cfe-2e9b513b6bb3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e36a0cd6-db90-47aa-a068-08efa85b6053">
+                <propertyInstance
+                  Id="4685c3e0-511c-4b22-a06a-a111b97543df"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af849244-b791-4dc5-9438-a55c52766f84">
+                <propertyInstance
+                  Id="636d47b9-7475-4bfc-81f3-f22f179cc823"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0370be70-6aa4-4ace-8557-952853db20fa">
+                <propertyInstance
+                  Id="a65cd5f4-282e-4a11-a03e-2119fa085768"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db03d8cc-63dd-4855-a678-73e3c384b41f">
+                <propertyInstance
+                  Id="d355e6c3-0a44-4a08-a52d-9371da1c5c9d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e80c67fb-a46b-4187-8484-4e7f957ea0bd">
+                <propertyInstance
+                  Id="ab126dfb-4068-45e1-8aff-e2af1b726980"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2f7b94e1-f6d0-4ff1-9523-88f257ccb9a2"
+        name="System.Web.Routing.BoundUrl"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="246da871-8973-4614-bda1-87c6b6db94ce"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Type%3DSystem.Web.Routing.BoundUrl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ef25b396-989a-4196-9086-7f805f7efedc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ad5754c-78ba-4025-a6bf-f4e42a4620c2">
+                <propertyInstance
+                  Id="5782c0d4-5d1c-4f8a-bb77-029230721c29"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e0e862e-283b-4874-9949-ad280a340fb5">
+                <propertyInstance
+                  Id="82ee51c6-3992-4096-94b6-92ce8acdca50"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf4c2132-362e-4736-9231-a693a7a21778">
+                <propertyInstance
+                  Id="bbf0cb9f-dfc5-4049-a9c9-a6d61ace5481"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b93f8759-b573-4162-bc4e-b6661478c151">
+                <propertyInstance
+                  Id="b520e05b-a3e2-4091-bc37-7037138ed207"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="916e8aaf-6c94-43fe-a899-d80ff60db663">
+                <propertyInstance
+                  Id="5d90c47c-dd15-4e56-b27d-3dceec0a1698"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="79a79ba1-e1f4-4f46-aa11-b1d0b9f45771"
+        name="System.Web.Routing.ParsedRoute"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cae4d1d6-8d39-444c-bd0a-90e4c7e4ae3e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Type%3DSystem.Web.Routing.ParsedRoute"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a92f2058-09ee-439a-975b-67d77aa2ee2d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="57035f60-82f5-4678-8d60-b7695b36faa5">
+                <propertyInstance
+                  Id="226d1814-dd70-46e7-a9c6-f9bf2f93ccdb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11d333cb-f1ea-4a02-bec4-f0e4a2e9591b">
+                <propertyInstance
+                  Id="5dfee4df-825b-426a-93d9-cadd7b7d82a4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="047ac3c4-aaa6-4feb-b370-cfc491283668">
+                <propertyInstance
+                  Id="43b12559-50c2-41f1-98da-2ea10f519032"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b16176c7-0e08-4609-b510-96e694f53d67">
+                <propertyInstance
+                  Id="7014879a-4d87-4d3c-a244-782889973b17"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7438814-712e-42e7-87f0-60a9a6f8357d">
+                <propertyInstance
+                  Id="ff600580-84e5-4e15-a229-c0405ece12d2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

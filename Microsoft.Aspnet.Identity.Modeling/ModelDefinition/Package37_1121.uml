@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d3d2312b-4555-4d08-b177-ffbe21bf3022"
+  name="System‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="25789e97-c386-457a-ba90-e900e8ab1089"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Namespace%3DSystem Type%3DSystem.Web.HttpResponseInternalBase"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="28bd6514-36dd-41a6-9b4a-7835b7681ff0"
+        LastKnownName="Data‎"
+        LastKnownLocation="Package38_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="749e5b96-c167-4f8b-9cac-192885ae2c2a"
+        LastKnownName="Web‎"
+        LastKnownLocation="Package45_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b3fd3a92-c3ff-4e06-b214-01cbf537ccf3"
+        name="System.Variant"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6bd64729-4f5e-45e3-833b-22938eece417"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnet-identity%2FWebApplication1%2Fbin%2FWebApplication1.dll Type%3DSystem.Variant"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7c71fe01-6f4a-4498-8b1c-9e757e352735"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13b35888-3952-433b-bf4d-6522ebf48c3c">
+                <propertyInstance
+                  Id="391f7c4f-3fcd-46c5-bcf9-4ce70edbdf74"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c1a23e1-7847-4a8f-9d28-a709f452e09d">
+                <propertyInstance
+                  Id="c69d0640-fd51-4ad8-8257-1e08e958550b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2fd27b6-7af0-4d9d-ad84-ec168bfa28d0">
+                <propertyInstance
+                  Id="1de5e537-60ab-4921-9e63-0764620c6fd0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="282a6be7-316f-4be6-a88a-d5a0c5e9f340">
+                <propertyInstance
+                  Id="856b59c8-2557-4aaf-b55a-e40dda43db0d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2181cb85-3452-4aa1-a361-d94665879c0c">
+                <propertyInstance
+                  Id="dc961611-0263-4f9f-9821-e3b6de71ba60"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1438f307-8c61-4452-89a7-c5af91f8ac51"
+        LastKnownName="Security‎"
+        LastKnownLocation="Package84_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6240833e-6af7-4e0b-84b7-0e73de88089e"
+        LastKnownName="Collections‎"
+        LastKnownLocation="Package86_1121.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d857213c-af4c-4f73-8b84-d3171d3fe5aa"
+        LastKnownName="Net‎"
+        LastKnownLocation="Package90_1121.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
